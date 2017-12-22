@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* apps/common/assets/default/default/skins/StatusBar.xml
+**
+** Copyright 2010, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<!-- Modified by droi Sean 2016.04.29 -->
+<com.droi.recent.RecentsPanelView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:systemui="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/droi_recents_root"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:foreground="@drawable/droi_bg_protect"
+    systemui:recentItemLayout="@layout/droi_status_bar_recent_item" >
+
+    <FrameLayout
+        android:id="@+id/droi_recents_bg_protect"
+        android:background="@drawable/droi_status_bar_recents_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true">
+
+        <com.droi.recent.RecentsHorizontalScrollView
+            android:id="@+id/droi_recents_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            android:overScrollMode="never"
+            android:fadingEdge="none"
+            android:fadingEdgeLength="@dimen/droi_status_bar_recents_scroll_fading_edge_length">
+
+            <LinearLayout android:id="@+id/droi_recents_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layoutDirection="ltr"
+                android:layout_gravity="left"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </com.droi.recent.RecentsHorizontalScrollView>
+    </FrameLayout>
+
+    <include layout="@layout/droi_status_bar_no_recent_apps"
+        android:id="@+id/droi_recents_no_apps"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+
+    <!-- Added by tyd hongchang.han 2015.10.21 -->
+    <LinearLayout
+        android:id="@+id/droi_clear_all_recents_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/clear_to_app_thumbnail"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="0dip"
+	        android:layout_weight="1"
+	        android:layout_gravity="center_horizontal" > 
+	        <ImageButton
+	            android:id="@+id/droi_clear_all_recent_button"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerInParent="true"
+	            android:background="@drawable/droi_recent_task_clear_button" />
+
+    	    <com.droi.recent.RecentsMemCircularView
+    	        android:id="@+id/droi_circular_view"
+    	        android:layout_width="@dimen/droi_recent_task_mem_circular_diameter"
+    	        android:layout_height="@dimen/droi_recent_task_mem_circular_diameter"
+    	        android:layout_centerInParent="true" />
+	    </RelativeLayout> 
+        <TextView 
+            android:id="@+id/droi_mem_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:textColor="@color/droi_status_bar_recents_app_label_color"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+    <!-- tyd -->
+</com.droi.recent.RecentsPanelView>

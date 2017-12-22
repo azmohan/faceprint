@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="fingerprint_func">функції</string>
+    <string name="camera_capture_enable">Контроль фотозйомки</string>
+    <string name="nv_camera_cpture_des">Натисніть, щоб зробити фото</string>
+    <string name="alarm_control_enable">"Сигнал"</string>
+    <string name="nv_alarm_control_des">Натисніть, щоб вимкнути будильник</string>
+    <string name="dial_enable">Набір номеру за допомогою відбитка пальцю</string>
+    <string name="nv_dial_control_des">Утримуйте для того, щоб набрати номер в панелі набору</string>
+    <string name="home_scroll_enable">Перетягування робочого столу</string>
+    <string name="nv_home_control_des">Натисніть, щоб прокрутити домашню сторінку</string>
+    <string name="video_operate_enable">Контроль відтворення відеофайлів</string>
+    <string name="nv_video_control_des">Натисніть, щоб контролювати відтворення відео</string>
+    <string name="music_operate_enable">Контроль відтворення музичних файлів</string>
+    <string name="nv_music_control_des">Натисніть, щоб контролювати відтворення музичних файлів</string>
+    <string name="nv_get_it">Отримати</string>
+</resources>

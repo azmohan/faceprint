@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" >
+    <CheckBoxPreference 
+        android:key="auto_share"
+        android:title="@string/freeme_wifi_settings_auto_share"/>
+    <CheckBoxPreference 
+        android:key="auto_notify"
+        android:title="@string/freeme_wifi_settings_auto_notify"/>
+</PreferenceScreen>

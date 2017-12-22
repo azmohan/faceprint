@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="fingerprint_func">Funkcije</string>
+    <string name="camera_capture_enable">Zabilježi</string>
+    <string name="nv_camera_cpture_des">Dodirnite za snimanje fotografija</string>
+    <string name="alarm_control_enable">"Alarm"</string>
+    <string name="nv_alarm_control_des">Dodirnite za zatvaranje alarma</string>
+    <string name="dial_enable">Biranje otiskom prsta</string>
+    <string name="nv_dial_control_des">Dugi dodir za biranje u brojčaniku</string>
+    <string name="home_scroll_enable">Pomicanje na Početna</string>
+    <string name="nv_home_control_des">Dodirnite za pomicanje početnih stranica</string>
+    <string name="video_operate_enable">Kontrola videa</string>
+    <string name="nv_video_control_des">Dodirnite za kontrolu video prikaza</string>
+    <string name="music_operate_enable">Kontrola glazbe</string>
+    <string name="nv_music_control_des">Dodirnite za kontrolu glazbenog prikaza</string>
+    <string name="nv_get_it">Nabavite ga</string>
+    <string name="smart_wakeup_enable">Smart Omogućite</string>
+    <string name="accessibility_settings_ext_title">pametne postavke</string>
+
+</resources>

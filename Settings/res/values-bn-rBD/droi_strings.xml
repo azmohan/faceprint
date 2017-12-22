@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="fingerprint_func">ক্রিয়াকলাপ</string>
+    <string name="camera_capture_enable">সংগ্রহ করুন</string>
+    <string name="nv_camera_cpture_des">ছবি তুলতে স্পর্শ করুন</string>
+    <string name="alarm_control_enable">"অ্যালার্ম"</string>
+    <string name="nv_alarm_control_des">অ্যালার্ম বন্ধ করার জন্য স্পর্শ করুন</string>
+    <string name="dial_enable">ফিঙ্গারপ্রিন্ট ডায়াল</string>
+    <string name="nv_dial_control_des">ডায়াল প্যাডে ডায়াল করার জন্য দীর্ঘ স্পর্শ</string>
+    <string name="home_scroll_enable">হোম স্ক্রল</string>
+    <string name="nv_home_control_des">হোম পৃষ্ঠাগুলো স্ক্রল করতে স্পর্শ করুন</string>
+    <string name="video_operate_enable">ভিডিও কনট্রাল</string>
+    <string name="nv_video_control_des">ভিডিও বাজানো নিয়ন্ত্রণ করতে স্পর্শ করুন</string>
+    <string name="music_operate_enable">সঙ্গীত কন্ট্রাল</string>
+    <string name="nv_music_control_des">সঙ্গীত বাজানো নিয়ন্ত্রণ করতে স্পর্শ করুন</string>
+    <string name="nv_get_it">এটা নিন</string>
+</resources>

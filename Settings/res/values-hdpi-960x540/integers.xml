@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="center_x">270</integer>
+    <integer name="center_y">435</integer>
+    <integer name="circle_radius">210</integer>
+    <integer name="icon_radius">37</integer>
+</resources>

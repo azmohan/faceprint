@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+   
+   <!--Added by Linguanrong for FloatTask 20130828-->
+    <string name="floattask_settings">Float multitask window</string>
+    <string name="floattask_summary">Turn on or off float multitask</string>
+    <string name="quick_floattask_settings">Quick switch</string>
+    <string name="quick_floattask_summary">Long press the BACK key to turn on and off quickly</string>
+    <!--Linguanrong-->
+    
+    <!--add by tyd cch 20131029 for pocket mode  -->
+    <string name="pocket_ring_mode_text">Pocket mode</string>
+    <string name="pocket_ring_mode_info">The bell volume increase When a device is located in the pocket</string>
+    
+    <!-- tyd.biantao 20131105. tp glove mode. -->
+    <string name="tp_glove_mode_title">Glove mode</string>
+    <string name="tp_glove_mode_summary">After opening,you can wear gloves to touch screen</string>
+    <!-- tyd.biantao, 20131025. for non-touch operation -->
+    <string name="non_touch_opr_category">Non-touch operation</string>
+    
+    <!-- Added by huangyiquan 20140317 for touch-protect mode -->
+    <string name="screen_on_proximity_title">Touch-protect Mode</string>
+    <string name="screen_on_proximity_summary">The use of distance sensors, to prevent touch phone non-Autonomously in your pocket due to the squeeze or slide caused by fabric</string>
+    <!-- end by huangyiquan -->
+    
+    <!-- Added by tyd Greg 2013-10-24,for control smart wake -->
+    <string name="smart_wake_category">Smart wake</string>
+    <!-- for smart wakeup -->
+    <string name="smart_wakeup_settings">Smart light / off</string>
+    <!-- tyd -->
+    <!-- tyd.zhanglingzeng. for smart wakeup . -->
+    <string name="smart_keep_screen_enable_setting">Smart stay</string>
+    <string name="smart_keep_screen_enable_setting_tips">The screen will continue to light up when you are looking at it</string>
+    <string name="smart_wakeup_setting">Dblclick to light</string>
+    <string name="smart_wakeup_setting_tips">Double click to light up screen</string>
+    <string name="double_tap_home_wake_title">Double tap HOME wake up</string>
+    <string name="double_tap_home_wake_summary">Double tap HOME key to wake up</string>
+    <string name="double_tap_home_off_title">Double tap HOME lock screen</string>
+    <string name="double_tap_home_off_summary">Double tap HOME to quickly lock screen</string>
+    <!-- tyd -->
+    
+    <!-- Add  by tyd liuchao on 2015-04-13, for new stytle -->
+    <string name="system_settings_title">System</string>
+    <string name="date_time_settings_title">Date and Time</string>
+    <string name="gestures_operate">Gesture Operation</string>
+    <string name="intelligent_operate">Intelligent Operation</string>
+    <string name="accessibility_settings_ext_title">Accessibility settings</string>
+    <string name="bits">64 bits</string>
+   
+    <!-- tyd.zhanglingzeng 20140819. tp  mini screen mode begin -->
+    <string name="tp_mini_screen_title">Mini screen mode</string>
+    <string name="tp_mini_screen_summary">After opening, you can operate the mini screen with single hand</string>
+	<string name="tp_mini_screen_trigger_title">Touch-screen operation to open mini screen mode</string>
+	<string name="tp_mini_screen_trigger_summary">After opening, you could open mini screen mode by sliding inward from the right side of the screen and then sliding outwards, also you could close the mini screen mode by doing the same action in the mini screen window.</string>
+	<string name="tp_close_mini_screen">Please first close the mini screen mode.</string>
+	<string name="tp_mini_screen_close_magic_flinger">Please first close the magic flinger.</string>
+	<!-- tyd.zhanglingzeng 20140819. tp  mini screen mode end -->
+    <!-- Added by tyd mingjun 20150608, for freeme wifi -->
+    <string name="freeme_wifi_title">Free WiFi</string>
+    <string name="freeme_wifi_online_time">Free internet access </string>
+    <string name="freeme_wifi_low_speed_reasons">The following reasons lead to slow speed</string>
+    <string name="freeme_wifi_low_speed_reason_1">Many people at the same time connecting</string>
+    <string name="freeme_wifi_low_speed_reason_2">Far distance signal is weak focus</string>
+    <string name="freeme_wifi_low_speed_reason_3">Being in motion</string>
+    <string name="freeme_wifi_introductions">Free WiFi,provided by freeme os</string>
+    <string name="freeme_wifi_freemeintroductions">Free WiFi,provided by freeme os</string>
+    <string name="freeme_wifi_introduction_1">No password</string>
+    <string name="freeme_wifi_introduction_2">A key connection</string>
+    <string name="freeme_wifi_introduction_3">Cover more than 20000 places</string>
+     <string name="freeme_wifi_connect">Free WiFi connection</string>
+    <string name="freeme_wifi_disconnect">Disconnect</string>
+    <string name="freeme_wifi_settings">freemewifi settings</string>
+    <string name="freeme_wifi_settings_auto_share">To automatically share WiFi hotspots connected</string>
+    <string name="freeme_wifi_settings_auto_notify">There are available free of charge near WiFi remind</string>
+    <string name="freeme_wifi_show_connect">Is connecting for you...</string>
+    <string name="freeme_wifi_show_disconnect">Are you off...</string>
+    <string name="freeme_wifi_show_wifi_disable">Wifi has been shut down</string>
+    <string name="freeme_wifi_show_no_freewifi">There is no available free WiFi</string>
+    <string name="freeme_wifi_menu_connect">Manually enter the connection</string>
+    <string name="freeme_wifi_summary">Welcome to use free WiFi, freeme os provide you with Free and safe network environment</string>
+    <!-- end -->
+    
+    <!-- Add by tyd yuanchengye 20140815, for three pointer swipe action -->
+    <string name="three_pointer_take_screen_shot_title">Three pointer take screen shot</string>
+    <string name="three_pointer_take_screen_shot_summary">Any where, three pointer swipe down to take screen shot</string>
+    <string name="three_pointer_start_hotnot_title">Three pointer start hotnot</string>
+    <string name="three_pointer_start_hotnot_summary">Any where, three pointer swipe up to start hotnot</string>
+    <!-- end -->
+    
+    <!-- Added by tyd Linguanrong 20130816 for adjust settings menu-->
+    <string name="smart_somatosensory">Smart somatosensory</string>
+    <string name="reverse_silent">Reverse to mute</string>
+    <string name="reverse_silent_info">Reverse phone to mute the ringing call and the clock</string>
+    
+    <!-- Added by john for sim kit --> 
+    <string name="other_application_title">Application</string>
+    <string name="stk_selection_title">SIM Toolkit</string>
+    <string name="holiday_mode_title">Not Disturb Mode</string>
+    <string name="smart_dial_title">Smart Dial</string>
+    <string name="smart_dial_title_summary">Make a phone call when mobile phone rapid near the ear</string>
+    <string name="smart_answer_title">Smart Answer Call</string>
+    <string name="smart_answer_title_summary">Answering the phone when mobile phone rapid near the ear</string>
+    <string name="have_no_stk">No Application response</string>
+    <!--end  -->
+    
+    <!-- Added by sxp 20140716 for shake open app -->
+    <string name="shake_open_app">Shake to open app</string>
+    <string name="shake_open_app_settings">Setting app</string>
+    <string name="select_shake_open">Select</string>
+    <string name="shake_default_value">1</string>
+    <!-- end -->
+    
+    <!-- for magic track -->
+    <string name="pref_finger_particle_effects_title">Magic Thumb</string>
+    <string name="settings_now_particle_effects">Current effect:</string>
+    <string name="settings_particle_effects_hint">TiPS:Once opened, it may consume battery</string>
+    <string name="particle_effect_name_none">None</string>
+    <string name="particle_effect_name_random">Random</string>
+    <string name="particle_effect_name_heart">Heart</string>
+    <string name="particle_effect_name_stars">Stars</string>
+    <string name="particle_effect_name_heartbeat">Heartbeat</string>
+    <string name="particle_effect_name_halo">Halo</string>
+    
+    <!-- added by tyd Fuchenming 20130618 -->
+    <string name="festival_wallpaper">Festival Wallpaper</string>
+
+<!-- Add for Custom Ringtone by xiaocui on 2013-08-30 Start. -->
+    <string name="zzzz_ringtone_default_title">Default ringtone</string>
+    <string name="zzzz_ringtone_default_summary">Select default ringtone</string>
+    <string name="zzzz_ringtone_custom_title">Custom ringtone</string>
+    <string name="zzzz_ringtone_custom_summary">Select custom ringtone</string>
+    <string name="zzzz_sdcard_missing_title">No SD card</string>
+    <string name="zzzz_no_audio_file">No audio file</string>
+    <string name="apply">Apply</string>
+    <string name="state">Current</string>
+    <string name="notification_sound_summary">"Set your default notification ringtone"</string>
+    <!-- Add for Custom Ringtone by xiaocui on 2013-08-30 End. -->
+
+    <!--Add by tyd xiaocui 0723 for the system volume and media volume-->
+    <string name="volume_system_description_text">system</string>
+    
+    <!-- Add Ringtone for Messages Start -->
+    <string name="zzzz_sound_category_message_title">Messages</string>
+    <string name="zzzz_message_sound_title">Message ringtone</string>
+    <string name="zzzz_message_sound_summary">Set your default messages ringtone</string>
+    <!-- Add Ringtone for Messages End --> 
+    
+    <!-- Added by liuchao  for koobee account, 20150630 -->
+    <string name="login_account_koobee">koobee Account</string>
+    <!-- end -->
+    
+    <!-- Added by Jack 20130521 for, flash memory info -->
+    <string name="flash_system">Android</string>
+    <string name="flash_userdata">Flash Memory (Application and Data)</string>
+    <string name="flash_internal_sd">Internal Storage</string>
+    <string name="flash_shard_sdcard">Internal Storage</string>
+    <string name="flash_memory_detail">Storage Detail</string>
+    <string name="flash_memory_detail_summary">Choose default Storage and view Storage usage detail</string>
+    <string name="cpu_info">CPU</string>
+    <string name="flash_info">Flash Memory</string>
+    <string name="cpu_cores_freq" formatted="false">%s%.2fGHz</string>
+    <string name="cpu_cores_1"></string>
+    <string name="cpu_cores_2">Dual-Core</string>
+    <string name="cpu_cores_4">Quad-Core</string>
+    <string name="cpu_cores_6">6-Core</string>
+    <string name="cpu_cores_8">Eight-Core</string>
+    <string name="ram_info">RAM</string>
+    <string name="system_version">%1$s %2$s / Android %3$s</string> 
+    <!--string name="system_version">%1$s %2$s</string--> 
+    <!-- tyd -->
+
+    <!-- freeme.biantao, 20160612. Adb chooser. -->
+    <string name="adb_not_askagain">"Don't show again"</string>
+
+    <!-- Add by tyd Jack 20150114, for default_app_preferences -->
+    <string name="default_app_preferences">Default app settings</string>
+    <!-- end -->
+    
+    <!-- Added by liuchao, 20150707 -->
+    <string name="storage_battery_settings">Storage  &amp; Battery</string>
+    <string name="lock_pwd_title">Lock  &amp; Password</string>
+    <!-- end --> 
+    
+    <!-- Added by Jack 20121224 for, switch app aee/anr dialog -->
+    <string name="show_aee_dialog">Show App Errors</string>
+    <string name="show_aee_dialog_summary">Show App Error dialog</string>
+    <string name="show_anr_dialog">Show App ANRs</string>
+    <string name="show_anr_dialog_summary">Show App Not Responding dialog</string>
+    <!-- tyd -->
+    
+    <!-- Added by Jack 20150518 for, extreme low memory killer support -->
+    <string name="enable_extreme_lk">Extreme Low memory killer support</string>
+    <string name="enable_extreme_lk_summary">Turn on this option will be used to optimize the memory recycled, very few applications may run unstable</string>
+    <!-- tyd --> 
+    
+    <!-- Added by Linguanrong for supershot, 2015-06-15-->
+    <string name="supershot_title">ScreenShot setting</string>
+    <string name="supershot_summary">call supershot default</string>
+    <!--Tyd-->
+
+    <!-- freeme.huzhongtao 20161208 for suspension -->
+    <string name="suspension_title">Suspension setting</string>
+    <string name="suspension_summary">Turn on this option the window will appear suspension</string>
+    
+    <!-- Added by tyd YuanChengye 20140317, for add oprerating instruction -->
+    <string name="usermanual_settings">Operating Instruction</string>
+    <!--Tyd-->
+    <!-- Add by tyd lipengfei 20150730 for sim setting -->
+    <string name="radio_control_sim_title">Network</string>
+    <string name="editor_sim_card_name">Editor SIM card name</string>
+    <string name="sim_card_info">SIM info</string>
+    <string name="sim_default_set">Default set</string>
+    <!-- tyd -->
+    
+    <!-- Added by tyd YuanChengye 20140317, for add sensor_calibration -->
+    <string name="sensor_calibration_title">Sensor Calibration</string>
+    <!-- added by tyd liuyong 20130826 for psensor-->
+    <string name="psensor_title">Proximity sensor calibration</string>
+    <string name="psensor_dlg_title">Note</string>
+    <string name="psensor_dlg_note">Calibration Proximity sensor ?</string>
+    <string name="psensor_calibration_success">Calibration complete</string>
+    <string name="psensor_calibration_fail">Calibration fail !</string>
+    <!-- Added by TYD Biantao, 2011/11/16. For adding Gsensor calibration. -->
+    <string name="g_sensor_title">Horizontal calibration</string>
+    <string name="g_sensor_summary">Calibrate horizontally using accelerometer</string>
+    <string name="gsensor_ready">Place device on a level surface and tap Calibrate</string>
+    <string name="gsensor_calibrating">Calibrating. Do not move device. Please wait...</string>
+    <string name="gsensor_end">Calibrated</string>
+    <string name="gsensor_end_width_failed">Calibrate failed</string>
+    <string name="gsensor_button1">Complete</string>
+    <string name="gsensor_button2">Calibrate</string>
+    
+    <!-- freeme.zhiwei.zhang, 20160818. NavigationBar Show/Hide.-->
+    <string name="navigationbar_settings">NavigationBar</string>
+    <string name="navigationbar_settings_tip">NavigationBar can hide</string>
+    <string name="navigationbar_settings_category">Select group of navigationbar</string>
+    <!--Tyd-->
+
+    <!--Add for SIM2 Ringtone by tyd xiaocui 2015-08-05-->
+    <string name="zzzz_ringtone_sim1_sound_summary">Set your sim1 ringtone</string>
+    <string name="zzzz_ringtone_sim2_sound_summary">Set your sim2 ringtone</string>
+    <string name="zzzz_message_sim1_sound_summary">Set your sim1 message ringtone</string>
+    <string name="zzzz_message_sim2_sound_summary">Set your sim2 message ringtone</string>
+    <!--Add for SIM2 Ringtone by tyd xiaocui 2015-08-05  end-->
+    
+    <!--Add for system update by tyd liuchao 2015-08-15-->
+    <string name="mtk_system_update">System Upgrade</string>
+    <!--Add for system update by tyd liuchao 2015-08-15 end-->
+
+    <string name="statusbar_settings">Status Bar Settings</string>
+
+    <!--Add for single screen by tyd jiangshouting  2015-08-25 start-->
+    <string name="common_dashboard_title">Common</string>
+    <!--Add for single screen by tyd jiangshouting 2015-08-25 end-->
+
+    <string name="share_freeme_item_title">"Share Freeme OS"</string>
+    <string name="share_freeme_extra_title">"Freeme OS 更省电的轻系统"</string>
+    <string name="share_freeme_extra_summary">"敢不敢来挑战？！我的手机是省电小公举！"</string>
+    <string name="share_freeme_extra_url">"http://weixin.droi.com/share/safe.html"</string>
+    <string name="share_freeme_extra_image_url">"http://weixin.droi.com/share/images/icon/icon_safe.png"</string>
+
+    <!--Modified by tyd xiaocui 2015-09-15 for 6.0 style audioprofile-->
+    <string name="sound_mode">sound mode</string>
+    <!-- Modified by tyd xiaocui 2015-09-15 for 6.0 style audioprofile end -->
+
+    <!--Modify by Jiangshouting 2015.12.29 for setting code transplant-->
+    <!-- Add by tyd chenruoquan 2015-11-09 -->
+    <plurals name="show_more_dev_countdown">
+        <item quantity="one" >"Operation requires only <xliff:g id="STEP_COUNT">%1$d</xliff:g> step  to enter the advanced developer mode."</item>
+        <item quantity="other">"Operation requires only <xliff:g id="STEP_COUNT">%1$d</xliff:g> steps  to enter the advanced developer mode."</item>
+    </plurals>
+    <string name="show_more_dev_on">"You are in an advanced developer mode now!"</string>
+    <string name="show_more_dev_already">"You are already in advanced developer mode, without the need for this operation."</string>
+    <!-- End. -->
+
+    <!-- Added by TYD Sean 2015-08-06 for droi account begin -->
+    <string name="login_account_droi">Droi Account</string>
+    <!-- Added by TYD Sean 2015-08-06 for droi account end -->
+
+    <string name="select_sim_for_open_data">Select SIM for data connection</string>
+    <string name="change_layout_mode">Change Interface Mode</string>
+    <!-- add by tyd wangalei 2015.9.29 for second menu sort -->
+    <string name="statebar_setting_titile">"Status Bar Settings"</string>
+    <string name="statebar_setting_notify">Manage Notifications</string>
+    <string name="statebar_setting_switch_sort">"Sort"</string>
+       <!-- add by tyd wangalei 2015.10.12 for second menu sort -->
+    <string name="schedule_power_setting_vibrate">"Scheduled vibration"</string>
+    <string name="schedule_power_setting_offline">"Scheduled offline"</string>
+    <string name="schedule_power_setting_schpwronoff">"Sched power on/off"</string>
+    <string name="no_sim_card">"No SIM Card"</string>
+    <string name="no_click_in_airmode">"Not Use While AirplaneMode"</string>
+    <string name="no_click_in_location_mode_off">"Not Use While Location Mode Off"</string>
+    <string name="credentials_install_nosdcard" >"Install from storage"</string>
+    <!-- end -->
+
+    
+	<!-- Add by tyd lipengfei 20151015 for freeme OOBE -->
+    <string name="oobe_previous_label">Back</string>
+    <string name="oobe_next_label">Next</string>
+    <string name="oobe_wifi_title">Connection WLAN</string>
+    <!-- tyd -->
+    <!-- end -->
+
+    <!-- Summary for "Configure lockscreen" when security biometric weak is enabled [CHAR LIMIT=45] -->
+    <string name="unlock_set_unlock_mode_biometric_weak">Face Unlock</string>
+
+    <!-- Security settings screen when using face unlock, setting option name to start an activity that allows the user to improve accuracy by adding additional enrollment faces -->
+    <string name="biometric_weak_improve_matching_title">Improve face matching</string>
+
+    <!-- On the security settings screen when using face unlock.  This checkbox is used to toggle whether liveliness detection is required.  If it is checked the user must blink during unlock to prove it's not a photo  -->
+    <string name="biometric_weak_liveliness_title">Liveness check</string>
+
+    <!-- On the security settings screen when using face unlock.  The summary of the liveliness checkbox -->
+    <string name="biometric_weak_liveliness_summary" msgid="7980026533493781616">Require eye blink while unlocking</string>
+
+    <!-- { freeme.xupeng, 20160531. Add sunshine screen display -->
+    <string name="pref_aal_title">"Increased Contrast"</string>
+    <string name="pref_aal_summary">"Increased display's contrast"</string>
+    <!-- } -->
+    <!-- { freeme.xupeng, 20160606. make oom adj change-able when reboot -->
+    <string name="dynamic_oom_adj_settings">Dynamic set oom adj</string>
+    <!-- } -->
+
+    <!--freeme.gejun, multi sim data connection close option-->
+    <string name="close_data_connection">Close connection</string>
+    
+    <!-- freeme.chenruoquan , 20160620.Add legal statement -->
+    <string name="legal_statement">"LegalNotices"</string>
+
+    <!--freeme.gejun, 20160706 smart answer will not work when non-touch open-->
+    <string name="smart_anser_tip">"Smart answer won't work when Call Non-touch open"</string>
+    
+    <!-- freeme.biantao, 20160727. Fingerprint func.-->
+    <string name="fingerprint_func">Functions</string>
+    <string name="camera_capture_enable">Capture</string>
+    <string name="nv_camera_cpture_des">Touch to take photos</string>
+    <string name="alarm_control_enable">Alarm</string>
+    <string name="nv_alarm_control_des">Touch to close alarm</string>
+    <string name="dial_enable">Fingerprint dial</string>
+    <string name="nv_dial_control_des">Long touch to dial in dial pad</string>
+    <string name="home_scroll_enable">Home Scroll</string>
+    <string name="nv_home_control_des">Touch to scroll home pages</string>
+    <string name="video_operate_enable">Video Control</string>
+    <string name="nv_video_control_des">Touch to control video play</string>
+    <string name="music_operate_enable">Music Control</string>
+    <string name="nv_music_control_des">Touch to control music play</string>
+    <string name="nv_get_it">Get it</string>
+
+    <!-- freeme.luyangjie, 20170606. show battery percent. -->
+    <string name="show_batterypct_title">"battery percent"</string>
+    <!-- @{ freeme.menglingqiang，20160928. add boot and shutdown ringtone. -->
+    <string name="freeme_boot_shut_audio_title">Switch machine ringing</string>
+    <string name="freeme_boot_audio_title">Power on ringtone</string>
+    <!-- @} -->
+    <!-- @{ freeme.menglingqiang，20160929. show ram information in settings. -->
+    <string name="freeme_storage_rom_used">RAM:Used of <xliff:g id="total" example="32GB">%1$s</xliff:g></string>
+    <string name="freeme_storage_ram_used">ROM:Used of <xliff:g id="total" example="32GB">%1$s</xliff:g></string>
+    <!-- @} -->
+    <!-- @{ droi.duanzhiquan, 20161101. add chinese label for ram && rom information in settings.-->
+    <string name="droi_storage_rom_used">Used</string>
+    <string name="droi_storage_rom_available">Available</string>
+    <string name="droi_storage_ram_used">Used</string>
+    <!-- @} -->
+    <!-- @{ freeme.menglingqiang, 20161011. support finger print front. -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">"Locate the fingerprint sensor on the below of your phone."</string>
+    <!-- @} -->
+
+    <!--freeme.chenming, 20161014. Default vibrator magnitude.-->
+    <string name="vibTuner_pref">pref_vibratortuner</string>
+    <string name="vibTuner_name">Vibrator Tuner</string>
+    <string name="vib_Reset">Reset</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="motion_recognition_label">Smart motion</string>
+    <string name="know_motion_recognition_settings">Learn about smart motion</string>
+    <string name="know_motion_recognition_settings_label">Learn about smart motion</string>
+    <string name="smart_wakeup_unlock_settings">Smart light&amp;unlock</string>
+    <string name="smart_wakeup_unlock_settings_label">Smart light&amp;unlock</string>
+    <string name="smart_photos_settings">Somatosensory picture</string>
+    <string name="smart_photos_settings_label">Somatosensory picture</string>
+    <string name="motion_photos_setting">Somatosensory picture</string>
+    <string name="smart_phone_settings">Smart call</string>
+    <string name="smart_phone_settings_label">Smart call</string>
+    <string name="wave_open_application_setting">Shake to open apps</string>
+    <string name="wave_open_application_setting_tips">Shaking to open camera or flashlight in light and locked interface and standby interface; Shaking to call up mini screen in unlocked interface</string>
+    <string name="wave_open_application_setting_tips1">Shaking to open camera or flashlight in light and locked interface and standby interface</string>
+    <string name="application_settings">Settings</string>
+    <string name="click_content_preform_experience">Tap list item to try</string>
+    <string name="screen_enable_out_pocket_setting">Light screen when out of pocket</string>
+    <string name="screen_enable_out_pocket_setting_tips">Light screen when out of pocket</string>
+    <string name="learn_screen_enable_out_pocket_setting_title">Learn about lighting screen when out of pocket</string>
+    <string name="learn_screen_enable_out_pocket_setting">As shown in figure, the screen will be lit when take the phone out of pocket</string>
+    <string name="mr_try">Try</string>
+    <string name="mr_cancel">I know</string><!--Cancel -->
+    <string name="try_screen_enable_out_pocket_setting_title">Try light screen when out of pocket</string>
+    <string name="notice_wait_screen_disable_then_out_pocket">Please lock the phone and put it into pocket, then take it out to check</string>
+    <string name="smart_wakeup_setting">Dblclick to light</string>
+    <string name="motion_recognition_wakeup">Dblclick to light</string>
+    <string name="smart_wakeup_setting_tips">Double click to light up screen</string>
+    <string name="motion_recognition_wakeup_tips">"Double click to light up screen when it's black"</string>
+    <string name="learn_wakeup_msg">"Double click to light up screen when it's black"</string>
+    <string name="learn_wakeup_title">Learn about dblclick to light</string>
+    <string name="try_wakeup_title">Try dblclick to light</string>
+    <string name="try_wakeup_msg2">"Double click screen after it's black to try dblclick to light"</string>
+    <string name="motion_unlock_setting">Non-touch unlock</string>
+    <string name="motion_recognition_unlock">Non-touch unlock</string>
+    <string name="motion_unlock_setting_tips">Wave your palm across the top of the phone can unlock it</string>
+    <string name="learn_unlock_title">Learn about non-touch unlock</string>
+    <string name="learn_unlock_msg">Wave your palm over the top of the phone (3cm-5cm) to unlock it</string>
+    <string name="try_unlock_msg1">Please wave your palm across the top of the phone (3cm-5cm) to try non-touch unlock, tap back key to exit</string>
+    <string name="try_unlock_msg2">You have tried non-touch unlock, tap screen or back key to exit</string>
+    <string name="smart_call_setting">Smart call</string>
+    <string name="motion_recognition_call">Smart call</string>
+    <string name="smart_call_setting_tips">Put phone close to ear to call contact of interface</string>
+    <string name="motion_recognition_call_tips">Put phone close to ear to call contact of interface</string>
+    <string name="learn_smart_call_title">Learn about smart call</string>
+    <string name="learn_smart_call_msg">Put phone close to ear to call contact in contact details, message thread and call details interface</string>
+    <string name="try_smart_call_msg1">Put phone close to ear to try smart call, tap back key to exit</string>
+    <string name="try_smart_call_msg2">You have tried smart call, tap screen or back key to exit</string>
+    <string name="smart_answer_setting">Smart answer</string>
+    <string name="motion_recognition_listen">Smart answer</string>
+    <string name="smart_answer_setting_tips">Put phone close to ear to answer</string>
+    <string name="motion_recognition_listen_tips">Put phone close to ear to answer</string>
+    <string name="learn_smart_answer_title">Learn about smart answer</string>
+    <string name="learn_smart_answer_msg">Put the phone to your ear to answer call</string>
+    <string name="try_smart_answer_msg1">Put phone close to ear to try smart answer, tap back key to exit</string>
+    <string name="try_smart_answer_msg2">You have tried smart answer, tap screen or back key to exit</string>
+    <string name="smart_answer_ring_setting_tip1">Ringtones smaller when pick up phone</string>
+    <string name="smart_answer_ring_setting_tip2">Keep ringing when pick up phone</string>
+    <string name="smart_answer_ring_setting_title">Ring of smart answer</string>
+    <string name="smart_switch_setting">Smart switch</string>
+    <string name="motion_recognition_convert">Smart switch</string>
+    <string name="smart_switch_setting_tips">Put phone close to ear to turn off the speaker</string>
+    <string name="motion_recognition_convert_tips">Put phone close to ear to turn off the speaker</string>
+    <string name="learn_smart_convert_title">Learn about smart switch</string>
+    <string name="learn_smart_convert_msg">"Put up the phone to switch to turn on the speaker when it's hands free"</string>
+    <string name="try_smart_switch_msg1">Put phone close to ear to try smart switch, tap back key to exit</string>
+    <string name="try_smart_switch_msg2">You have tried smart switch, tap screen or back key to exit</string>
+    <string name="cover_screen_mute_setting">Cover the screen to mute</string>
+    <string name="cover_screen_mute_setting_tips">Cover the screen to mute the phone when ringing</string>
+    <string name="learn_cover_screen_mute_setting_title">Learn about smart mute</string>
+    <string name="learn_cover_screen_mute_setting">Cover the screen can mute the phone when ringing</string>
+    <string name="notice_cover_mute_msg2">Please cover the screen with your palm to try cover the screen to mute, tap back key to exit</string>
+    <string name="try_smart_mute_msg1">Please cover the screen with your palm to try cover the screen to mute, tap back key to exit</string>
+    <string name="try_smart_mute_msg2">You have tried cover the screen to mute, tap screen or back key to exit</string>
+    <string name="smart_touch_setting">Smart wave</string>
+    <string name="touch_settings">Settings</string>
+    <string name="touch_settings_tips">Wave to mute</string>
+    <string name="try_smart_touch_title">Try smart wave</string>
+    <string name="learn_smart_touch_msg">Wave your palm across the top of the phone (3cm-5cm) can mute or answer the call when it is ringing</string>
+    <string name="learn_smart_touch_title">Learn about smart wave</string>
+    <string name="notice_smart_touch">Put down the phone and wait for ringing</string>
+    <string name="try_smart_touch_msg1">Wave your palm across the top of the phone (3cm-5cm) to try wave to mute, tap back key to exit</string>
+    <string name="try_smart_touch_msg2">Wave your palm across the top of the phone (3cm-5cm) to try wave to hands free, tap back key to exit</string>
+    <string name="try_smart_touch_msg3">You have tried smart wave, tap screen or back key to exit</string>
+    <string name="smart_remind_setting">Smart remind</string>
+    <string name="motion_recognition_remind">Smart remind</string>
+    <string name="smart_remind_setting_tips">Catch missed calls and unread messages</string>
+    <string name="motion_recognition_remind_tips">Catch missed calls and unread messages</string>
+    <string name="learn_remind_title">Learn about smart reminder</string>
+    <string name="learn_remind_msg">Get missed calls and unread messages notification when take up your phone</string>
+    <string name="try_remind_title">Try smart reminder</string>
+    <string name="try_remind_msg1">"Remind after take up the phone when it's black"</string>
+    <string name="try_wakeup_msg1">"Remind after take up the phone when it's black"</string>
+    <string name="learn_wave_open_application_setting_title">Learn about shaking to open apps</string>
+    <string name="learn_wave_open_application_setting">Shaking to open camera or flashlight in light and locked interface and standby interface. Shaking to call up mini screen in any interface</string>
+    <string name="learn_wave_open_application_setting1">Shaking to open camera or flashlight in light and locked interface and standby interface</string>
+    <string name="try_wave_open_application_msg1">Shaking phone to try shake to open flashlight, tap back key to exit</string>
+    <string name="try_wave_open_application_msg2">Shaking phone to try shake to open camera, tap back key to exit</string>
+    <string name="try_wave_open_application_msg3">Shaking phone to try shake to open mini screen, tap back key to exit</string>
+    <string name="try_wave_open_application_msg4">You have tried shake to open apps, tap screen or back key to exit</string>
+    <string name="try_wave_open_application_setting_title">Try shake to open apps</string>
+    <string name="call_notice">Please retry after the calling</string>
+    <string name="default_sim_settings">Default calling card</string>
+    <string name="default_sim_settings_tips">SIM1</string>
+    <string name="sound_settings">Sounds settings</string>
+    <string name="sound_settings_tips">Ringtones smaller when pick up phone</string>
+    <string name="default_sim_notice1">You have selected</string>
+    <string name="default_sim_notice2">as the default calling card in call settings</string>
+    <string name="tilt_phone_zoom_photes_setting">Tilt the phone to zoom pictures</string>
+    <string name="tilt_phone_zoom_photes_setting_tips">Single finger on the screen and tilt mobile phone can zoom pictures</string>
+    <string name="tilt_phone_switch_photos_setting">Tilt the phone to change pictures</string>
+    <string name="tilt_phone_switch_photos_setting_tips">Tilting the phone left or right can change pictures</string>
+    <string name="smart_keep_screen_enable_setting">Smart stay</string>
+    <string name="smart_keep_screen_enable_setting_tips">The screen will continue to light up when you are looking at it</string>
+    <string name="learn_smart_keep_screen_enable_title">Learn about smart keep bright</string>
+    <string name="learn_smart_keep_screen_enable_msg">This function detect your face by front-camera, so the screen will stay bright when you face to it</string>
+    <string name="learn_smart_keep_screen_enable_msg1">This function will lose efficacy in following situation:</string>
+    <string name="learn_smart_keep_screen_enable_msg2">1.Your face is not in front of screen</string>
+    <string name="learn_smart_keep_screen_enable_msg3">2.Front-camera is blocked</string>
+    <string name="learn_smart_keep_screen_enable_msg4">3.You are in strong light or dark place</string>
+    <string name="learn_smart_keep_screen_enable_msg5">4.Front-camera is used by other applications</string>
+    <string name="seperate_motion_operation_settings">Non-touch operation</string>
+    <string name="seperate_motion_operation_settings_label">Non-touch operation</string>
+    <string name="smart_wakeup_settings">Smart light</string>
+    <string name="smart_wakeup_settings_label">Smart light</string>
+    <string name="touch_control_standby_interface_setting">Non-touch switch in launcher</string>
+    <string name="touch_control_standby_interface_setting_tips">Switch launcher and select apps through non-touch gestures</string>
+    <string name="touch_control_maps_setting">Non-touch operation in galley</string>
+    <string name="touch_control_maps_setting_tips">Switch interfaces in gallery and zoom pictures through non-touch gestures</string>
+    <string name="learn_touch_control_standby_interface_title">Learn about non-touch operation in standby interface</string>
+    <string name="learn_touch_control_standby_interface_msg">Wave your palm across the phone (3cm-5cm) to change pages</string>
+    <string name="learn_touch_control_standby_interface_msg1">1.Wave your palm across the phone (3cm-15cm) to change pages</string>
+    <string name="learn_touch_control_standby_interface_msg2">"2.Keep your palm stay above the phone (40cm-100cm) more than 1 second. It's equivalent to tap operation"</string>
+    <string name="touch_control_tips">"Matters needing attention: 
+1.The function detect your palm by front-camera. Wave your palm above the phone (3cm-15cm) to switch picture. keep your palm stay above the phone (40cm-100cm) more than 1 second to click. 
+2.Please pull the fingers open and face the camera in long distance. 
+3.The function of light effect is larger, in strong light, weak light, backlight, possible failure."</string>
+    <string name="notice_title">Tips</string>
+    <string name="open">Open</string>
+    <string name="cancel">Cancel</string>
+    <string name="notice_msg1">Smart keep bright will be closed when non-touch operation in standby interface is open</string>
+    <string name="notice_msg2">Smart keep bright will be closed when non-touch operation in gallery is open</string>
+    <string name="notice_msg3">Non-touch operation in standby interface will be closed when smart keep bright is open</string>
+    <string name="notice_msg4">Non-touch operation in gallery will be closed when smart keep bright is open</string>
+    <string name="notice_msg5">Non-touch operation in standby interface and gallery will be closed when smart keep bright is open</string>
+    <string name="i_know">I know</string>
+    <string name="smart_wake_settings_label">Smart wake</string>
+    <string name="smart_wake_settings">Smart wake</string>
+    <string name="screen_disable_to_view_setting">In view of the black screen</string>
+    <string name="screen_disable_to_view_setting_tips">"When screen is black, wave your palm across phone to view phones' status"</string>
+    <string name="learn_to_view_msg">"When screen is black, Wave your palm across the top of the phone (3cm-5cm) to view phones' status"</string>
+    <string name="learn_to_view_title">Learn about in view of the black screen</string>
+    <string name="screen_disable_to_unlock_setting">Slide upward to unlock</string>
+    <string name="screen_disable_to_unlock_setting_tips">When screen is black, slide upwards on the screen to unlock</string>
+    <string name="learn_to_unlock_msg">When screen is black, slide upward on the screen to unlock</string>
+    <string name="learn_to_unlock_title">Learn about sliding upward to unlock</string>
+    <string name="screen_disable_wake_dial_setting">"Draw 'c' to wake dialer"</string>
+    <string name="screen_disable_wake_dial_setting_tips">When screen is black, painting c can wake dialer</string>
+    <string name="learn_wake_dile_msg">"When screen is black, draw 'c' can wake dialer"</string>
+    <string name="learn_wake_dile_title">"Learn about drawing 'c' to wake dialer"</string>
+    <string name="screen_disable_wake_music_setting">"Draw 'm' to play songs"</string>
+    <string name="screen_disable_wake_music_setting_tips">When screen is black, painting m can wake music</string>
+    <string name="learn_wake_music_msg">"When screen is black, draw 'm' can play music"</string>
+    <string name="learn_wake_music_title">"Learn about drawing 'm' to play songs"</string>
+    <string name="screen_disable_change_music_setting">Horizontal slide to change-over music</string>
+    <string name="screen_disable_change_music_setting_tips">When screen is black, parallel to the bottom to slide to change-over music</string>
+    <string name="learn_change_music_msg">When screen is black, parallel to the bottom to slide to change-over music</string>
+    <string name="learn_change_music_title">Learn about horizontal slide to change-over music</string>
+    <string name="screen_disable_wake_camera_setting">Slide downward to photograph</string>
+    <string name="screen_disable_wake_camera_setting_tips">When screen is black, slide downwards on the screen to wake camera</string>
+    <string name="learn_quick_open_camera_title">Learn about sliding downward to photograph</string>
+    <string name="learn_quick_open_camera_msg">When screen is black, slide downward on the screen to photograph</string>
+    <string name="try_quick_open_camera_title">Learn Slide downward to photograph</string>
+    <string name="try_quick_open_camera_msg1">When screen is black, slide screen by fingers as shown to launch camera</string>
+    <string name="capture_settings">Capture setting</string>
+    <string name="capture_settings_tips">Capture manually</string>
+    <string name="try_slide_launch_camera_msg2">You have tried in extinct screen to wake camera, tap screen or back key to exit</string>
+    <string name="screen_disable_wake_browser_setting">"Draw 'e' to wake browser"</string>
+    <string name="screen_disable_wake_browser_setting_tips">When screen is black, painting e to wake browser</string>
+    <string name="learn_wake_browser_msg">"When screen is black, draw 'e' to wake browser"</string>
+    <string name="learn_wake_browser_title">"Learn about drawing 'e' to wake browser"</string>
+    <string name="screen_disable_wake_qq_setting">"Draw 'o' to wake QQ"</string>
+    <string name="screen_disable_wake_qq_setting_tips">When screen is black, painting a circle to wake QQ</string>
+    <string name="learn_wake_qq_msg">"When screen is black, draw 'o' to wake QQ"</string>
+    <string name="learn_wake_qq_title">"Learn about drawing 'o' to wake QQ"</string>
+    <string name="screen_disable_wake_wechat_setting">"Draw 'w' to wake Wechat"</string>
+    <string name="screen_disable_wake_wechat_setting_tips">When screen is black, painting w to wake Wechat</string>
+    <string name="learn_wake_wechat_msg">"When screen is black, draw 'w' to wake Wechat"</string>
+    <string name="learn_wake_wechat_title">"Learn about drawing 'w' to wake Wechat"</string>
+    <string name="touch_control_electronic_book_setting">Non-touch e-book flip</string>
+    <string name="touch_control_electronic_book_setting_tips">Wave your palm across the phone to e-book flip</string>
+    <string name="learn_touch_control_electronic_book_msg">Wave your palm across the top of the phone (3cm-5cm) to e-book flip</string>
+    <string name="learn_touch_control_electronic_book_title">Learn about Non-touch e-book flip</string>
+    <string name="try_touch_control_electronic_book_msg1">Please wave your palm from right to left above the phone (3cm-5cm) to turn to the next page, tap back key to exit</string>
+    <string name="try_touch_control_electronic_book_msg2">Please wave your palm from left to right above the phone (3cm-5cm) to turn to the last page, tap back key to exit</string>
+    <string name="try_touch_control_electronic_book_msg3">You have tried non-touch e-book flip, tap screen or back key to exit</string>
+    <string name="smart_reminder_screen_enable_setting">Bright screen after reminder</string>
+    <string name="off_screen_wake_up">Off screen wake up(Tap list item to learn)</string>
+    <string name="screen_disable_wake_qq_setting_msg">"Note: the painting 'o' wake QQ only for the mobile phone version of the QQ, in order to your normal use do not install multiple versions of QQ in mobile phone"</string>
+    <string name="learn_touch_control_gallery_title">Learn about space operation in gallery</string>
+    <string name="learn_touch_control_gallery_msg">Wave palm across the top of the phone (3cm-5cm) to switch pages</string>
+    <!-- Added by tyd YuanChengye 20131101, for motion video setting -->
+    <string name="touch_control_video_setting">Non-touch in video</string>
+    <string name="learn_touch_control_video_title">Learn about space operation in video</string>
+    <string name="learn_touch_control_video_msg">Wave palm across the top of the phone (3cm-5cm) to switch videos on the  up and down or left and right</string>
+    <!-- Added by tyd linliangliang 20131104, for motion music setting -->
+    <string name="touch_control_music_setting">Non-touch in music</string>
+    <string name="learn_touch_control_music_title">Learn about space operation in music</string>
+    <string name="learn_touch_control_music_msg">Wave palm across the top of the phone (3cm-5cm) to switch music on the  up and down or left and right</string>
+    
+    <!-- Added by tyd jlwang 20140823, for motion phone setting -->
+    <string name="touch_control_phone_setting">Non-touch in phone</string>
+    <string name="learn_touch_control_phone_title">Learn about space operation in phone</string>
+    <string name="learn_touch_control_phone_msg">Wave palm across the top of the phone (3cm-5cm) to switch phone Incoming , so call mute or hands-free calls</string>
+    <string name="motion_phone_setting_change_title">Non-touch in phone Settings</string>
+    <string name="motion_phone_setting_change_default_value">1</string>
+    <!--  end -->
+    <!-- Add by tyd jiangshouting for call operation title-->
+    <string name="call_operation">Call operation</string>
+    
+    <string name="smart_wakeup_settings_title">Smart light</string>
+    <string name="motion_gesture_generic_setting">Generic mode</string>
+    <string name="learn_touch_control_generic_title">Learn about space operation in all apps</string>
+    <string name="learn_touch_control_generic_msg">"Wave palm across the top of the phone (3cm-5cm). Events of General-mode will directly be mapped to touch-screen events,so this can compatible with third party applications better. Note that this mode can't work with Professional-mode at the same time, the Professional-mode can custom more complicated operation and behavior"</string>
+    
+    <string name="generic_mode_title">Generic mode</string>
+    <string name="private_mode_title">Professional mode</string>
+
+    <string name="take_phone_mode_title">call</string>
+    <string name="send_sms_mode_title">open message</string>
+    <string name="open_app_mode_title">open app</string>
+    <string name="control_music_mode_title">control music</string>
+    <string name="unlock_screen_mode_title">unlock screen</string>
+    <string name="function_select">function select</string>
+    <string name="prev_music">prev</string>
+    <string name="start_or_pause_music">start/pause</string>
+    <string name="next_music">next</string>
+    <string name="control_select">control select</string>
+    <string name="app_select">app select</string>
+    <string name="screen_wakeup_up_enabled">move up</string>
+    <string name="screen_wakeup_down_enabled">move down</string>
+    <string name="screen_wakeup_left_enabled">move left</string>
+    <string name="screen_wakeup_right_enabled">move right</string>
+    <string name="screen_wakeup_c_enabled">paint c</string>
+    <string name="screen_wakeup_m_enabled">paint m</string>
+    <string name="screen_wakeup_e_enabled">paint e</string>
+    <string name="screen_wakeup_o_enabled">paint o</string>
+    <string name="screen_wakeup_w_enabled">paint w</string>
+    <string name="screen_wakeup_v_enabled">paint v</string>
+    <string name="screen_wakeup_s_enabled">paint s</string>
+    <string name="screen_wakeup_z_enabled">paint z</string>
+    <string name="screen_wakeup_rarrow_enabled">paint ></string>
+    <string name="screen_wakeup_tarrow_enabled">paint ^</string>
+    
+    <string name="default_setting_weixin">weixin</string>
+    <string name="default_setting_qq">QQ</string>
+    <string name="default_setting_browser">browser</string>
+    <string name="default_setting_music">music</string>
+    <string name="default_setting_call">call</string>
+    <string name="generic_mode_descrption">The general pattern is to simulate the user\'s sliding operation,after opening,free mode option will be invalid,shut down after the general pattern can be restored</string>
+    <string name="smart_wake_action_state_on">On</string>
+    
+    <string name="double_tap_home_wake_title">Double tap HOME wake up</string>
+    <string name="double_tap_home_wake_summary">Double tap HOME key to wake up</string>
+    
+    <string name="double_tap_home_off_title">Double tap HOME lock screen</string>
+    <string name="double_tap_home_off_summary">Double tap HOME to quickly lock screen</string>
+    
+    <!-- freeme.chenruoquan, 2160623 -->
+    <string name="motion_on">"On"</string>
+    <string name="motion_off">"Off"</string>
+
+    <!-- freeme.tangxiaohui, 20160919.-->
+    <string name="soft_lock_control_enable">Soft Lock</string>
+    <!-- freeme.luyangjie, 20170605.-->
+    <string name="total_storage">Total storage</string>
+    <string name="system_storage">System storage</string>
+    <string name="Internal_storage">Internal storage</string>
+
+    <!-- freeme.xupeng, 20170605, add hardware info -->
+    <string name="hardware_info">Hardware Info</string>
+
+    <!-- freeme.jianglingfeng, 20170619, add hw version -->
+    <string name="hw_version">Hardware Version</string>
+    <string name="sw_version">Software Version</string>
+    <string name="custom_version">Custom Version</string>
+    <string name="os_version">OS Version</string>
+    <string name="carrier_aggregation">Carrier Aggregation</string>
+
+    <!-- freeme.xupeng, 20170607, add product name -->
+    <string name="product_name">Product name</string>
+    <string name="product_name_summary">红辣椒GM-Q11</string>
+
+    <!-- freeme.luyangjie, 20170608, add WeChat and QQ title name-->
+    <string name="wechat_title">Light the screen when message come to wechat</string>
+    <string name="qq_title">Light the screen when message come to QQ</string>
+
+    <!-- freeme.luyangjie, 20170608, add Application startup management -->
+    <string name="app_management_title">Self-Starting Manager</string>
+
+    <!-- freeme.luyangjie, 20170612, three_pointer_in_camera -->
+    <string name="three_pointer_in_camera_title">Three pointer Into the camera</string>
+    <string name="three_pointer_in_camera_summary">Any where,three pointer swipe up Into the camera</string>
+
+    <!-- freeme.luyangjie, 20170612, Double click on the lock screen  -->
+    <string name="double_homekey_lock_title">Double click lock the screen</string>
+    <string name="double_homekey_lock_summary">Any where,Double-click the HOME key lock screen</string>
+
+    <!-- freeme.luyangjie, 20170614, add Super headset -->
+    <string name="super_headset_title">Super headset</string>
+    <string name="click_function_title">Click function</string>
+    <string name="double_click_function_title">Double click function</string>
+    <string name="Three_click_function_title">Three click function</string>
+    <string name="long_click_function_title">Long click function</string>
+    <string name="conventional_title">Conventional</string>
+    <string name="Function_title">Function</string>
+
+    <!-- freeme.fanwuyang, 20170705, add storage information -->
+    <string name="storage_info">Storage Information</string>
+    <string name="system_space">Phone Storage</string>
+    <string name="total_storages">Total Storages</string>
+    <string name="available_storage">Available Storages</string>
+
+    <!-- freeme.fanwuyang, 20170801, add smart empty information -->
+    <string name="smart_text_show">Screenshot:press the volume button + boot button</string>
+
+    <!--freeme.fanwuyang,2017/08/02, for Application Security -->
+    <string name="app_security_title">AppLocker</string>
+
+    <!--freeme.fanwuyang,2017/08/26, for Mulitiple Accounts-->
+    <string name="app_mulitiple_accounts">Mulitiple Accounts</string>
+
+    <!--freeme.fanwuyang,2017/08/31, for CChelper-->
+    <string name="cchelper_settings_title">CChelper</string>
+
+    <!-- Droi.zhangweinan, 20161201. for add tts option -->
+    <string name="tts_mode_text">TTS</string>
+    <string name="tts_mode_summary">Big launcher voice prompts</string>
+
+    <!--freeme.zhangjunxiang,20170803,for auto clean background-->
+    <string name="auto_clean_background_title">Auto clean background</string>
+    <!--freeme.xuqian,20170826,for AudioProfileSettings lable -->
+    <string name="audio_profiles">Audio profiles</string>
+    <!--freeme.xuqian,20170830,for instructions -->
+    <string name="product_instructions">"Electronic manual"</string>
+    <!--freeme.xuqian,20170913,for customize battery display -->
+    <string name="battery_used_total">"battery already used: <xliff:g id="TOTAL">%1$s</xliff:g>"</string>
+    <!--freeme.xuqian,20170919,for customize market display -->
+    <string name="market_droi_easy_install">Droi easy install</string>
+    <!-- freeme.zhangshaopiao,20170830,added for wireless toggle -->
+    <string name="data_connection">data connect</string>
+    <string name="market_droi_task_helper">Droi task helper</string>
+    <!-- freeme.zhangshaopiao,20171106,add too long prompt -->
+    <string name="bluetooth_name_too_long">Name length is too long</string>
+</resources>

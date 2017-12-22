@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/quicksettings_preference_title">
+
+    <PreferenceCategory
+        android:key="notification_category"
+        android:title="@string/quicksettings_category_notification" >
+        
+        <Preference android:key="notifications_custom"
+            android:title="@string/quicksettings_custom_notifications" >
+        </Preference>
+
+        <Preference android:key="toggles_custom"
+            android:title="@string/quicksettings_custom_toggles" >
+        </Preference>
+
+        <SwitchPreference android:key="toggle_statusbar_battery_mode"
+            android:title="@string/quicksettings_statusbar_battery_mode"
+            android:summary="@string/quicksettings_statusbar_battery_mode_summary"/>
+            
+        <SwitchPreference android:key="toggle_unexpand_statusbar"
+            android:title="@string/quicksettings_unexpand_statusbar_title"
+            android:summary="@string/quicksettings_unexpand_statusbar_summary"/>
+            
+        <SwitchPreference android:key="toggle_statusbar_data_usage"
+            android:title="@string/quicksettings_statusbar_data_usage_title"
+            android:summary="@string/quicksettings_statusbar_data_usage_summary"/>
+            
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:key="statusbar_category"
+        android:title="@string/quicksettings_category_statusbar" >
+        
+        <SwitchPreference android:key="toggle_carrier_label"
+            android:title="@string/quicksettings_carrier_label" />
+        <!--android:summary="@string/quicksettings_carrier_summary"-->
+        
+        <SwitchPreference android:key="toggle_network_speed"
+            android:title="@string/quicksettings_network_speed"/>
+        <!--freeme,luyangjie.for hide status bar Settings battery percent ,2017.0606 -->
+        <!--<SwitchPreference android:key="toggle_battery_percent"-->
+            <!--android:title="@string/quicksettings_battery_percent"/>-->
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="settings_category"
+        android:title="@string/quicksettings_category_settings" >
+
+        <Preference android:key="network_speed_refresh_rate"
+            android:title="@string/quicksettings_refresh_interval"
+            android:summary="@string/quicksettings_refresh_interval_summary" />
+
+        <Preference android:key="custom_carrier_label"
+            android:title="@string/custom_carrier_title"
+            android:summary="@string/custom_carrier_summary" />
+        
+    </PreferenceCategory>
+        
+</PreferenceScreen>

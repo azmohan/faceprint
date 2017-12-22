@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:title="@string/audio_profile_bes_surround_title">
+
+    <!-- @{freeme.chenruoquan, 20160919.add on_off switch preference -->
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="motion_on_off"
+        android:title="@string/accessibility_global_gesture_preference_summary_on" 
+        android:switchTextOn="@string/accessibility_global_gesture_preference_summary_on"
+        android:switchTextOff="@string/accessibility_global_gesture_preference_summary_off"
+        android:layout="@layout/freeme_switch_preference"/>
+    <!-- @} -->
+    
+	<com.mediatek.audioprofile.BesSurroundItem
+		android:key="movie_mode" 
+		android:title="@string/audio_profile_bes_surround_mode_movie"
+		android:persistent="false" />
+	<com.mediatek.audioprofile.BesSurroundItem
+		android:key="music_mode" 
+		android:title="@string/audio_profile_bes_surround_mode_music"
+		android:persistent="false" />
+
+</PreferenceScreen>

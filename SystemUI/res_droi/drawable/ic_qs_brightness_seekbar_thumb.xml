@@ -1,0 +1,4 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/droi_ic_brightness_thumb_pressed" />
+    <item android:drawable="@drawable/droi_ic_brightness_thumb_normal" />
+</selector>

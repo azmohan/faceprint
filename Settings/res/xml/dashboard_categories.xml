@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<dashboard-categories
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <!-- WIRELESS and NETWORKS -->
+    <dashboard-category
+            android:id="@+id/wireless_section"
+            android:key="@string/category_key_wireless"
+            android:title="@string/header_category_wireless_networks" >
+
+        <!-- Wifi -->
+        <dashboard-tile
+                android:id="@+id/wifi_settings"
+                android:title="@string/wifi_settings_title"
+                android:fragment="com.android.settings.wifi.WifiSettings"
+                android:icon="@drawable/ic_settings_wireless"
+                />
+
+        <!--HetComm-->
+        <!-- freeme. xiaocui,20160621 delete hetcomm menu
+        <dashboard-tile
+                android:id="@+id/hetcomm_settings"
+                android:icon="@drawable/ic_settings_hetcomm"
+                android:title="@string/hetcom_setting_title">
+            <intent android:action="com.android.settings.HETCOMM_SETTINGS" />
+        </dashboard-tile>
+        -->
+
+        <!-- Bluetooth -->
+        <dashboard-tile
+                android:id="@+id/bluetooth_settings"
+                android:title="@string/bluetooth_settings_title"
+                android:fragment="com.android.settings.bluetooth.BluetoothSettings"
+                android:icon="@drawable/ic_settings_bluetooth"
+                />
+       <!--M: add Hotknot 
+        <dashboard-tile
+                android:id="@+id/hotknot_settings"
+                android:title="@string/hotknot_settings_title"
+                android:fragment="com.mediatek.settings.hotknot.HotKnotSettings"
+                android:icon="@drawable/ic_settings_hotknot" 
+                /> -->
+        <!-- SIM Cards 
+        <dashboard-tile
+                android:id="@+id/sim_settings"
+                android:title="@string/sim_settings_title"
+                android:fragment="com.android.settings.sim.SimSettings"
+                android:icon="@drawable/ic_settings_sim"
+                /> -->
+
+        <!-- Data Usage 
+        <dashboard-tile
+                android:id="@+id/data_usage_settings"
+                android:title="@string/data_usage_summary_title"
+                android:fragment="com.android.settings.DataUsageSummary"
+                android:icon="@drawable/ic_settings_data_usage"
+                /> -->
+
+        <!-- Operator hook -->
+        <dashboard-tile
+                android:id="@+id/operator_settings"
+                android:fragment="com.android.settings.WirelessSettings" >
+            <intent android:action="com.android.settings.OPERATOR_APPLICATION_SETTING" />
+        </dashboard-tile>
+
+        <!-- Other wireless and network controls -->
+        <!-- <dashboard-tile
+                android:id="@+id/wireless_settings"
+                android:title="@string/radio_controls_title"
+                android:fragment="com.android.settings.WirelessSettings"
+                android:icon="@drawable/ic_settings_more"
+                /> -->
+
+        <dashboard-tile
+                android:id="@+id/wireless_settings"
+                android:title="@string/radio_control_sim_title"
+                android:fragment="com.android.settings.WirelessSettings"
+                android:icon="@drawable/ic_sim_sd"
+                />
+
+    </dashboard-category>
+
+    <!-- PERSONAL -->
+    <dashboard-category
+            android:id="@+id/personal_section"
+            android:key="@string/category_key_personal"
+            android:title="@string/header_category_personal" >
+
+        <!-- Account -->
+        <dashboard-tile
+                android:id="@+id/zhuoyi_account_settings"
+                android:title="@string/login_account_droi"
+                android:icon="@drawable/ic_settings_accounts"
+                />
+
+        <!-- Account -->
+        <dashboard-tile
+                android:id="@+id/account_settings"
+                android:title="@string/account_settings_title"
+                android:fragment="com.android.settings.accounts.AccountSettings"
+                android:icon="@drawable/ic_settings_other_account_2_grid"
+                />
+        
+        <!-- Location -->
+        <dashboard-tile
+                android:id="@+id/location_settings"
+                android:title="@string/location_settings_title"
+                android:fragment="com.android.settings.location.LocationSettings"
+                android:icon="@drawable/ic_settings_location"
+                />
+
+        <!-- Faceprint -->
+        <dashboard-tile
+            android:id="@+id/faceprint"
+            android:title="@string/security_settings_faceprint_preference_title"
+            android:fragment="com.freeme.settings.face.FaceprintSettingsDashboard"
+            android:icon="@drawable/freeme_ic_faceprint"
+            />
+        
+        <!-- Lock Screen & Password -->
+        <dashboard-tile
+                android:id="@+id/lock_pwd_settings"
+                android:title="@string/lock_pwd_title"
+                android:fragment="com.android.settings.LockScreenAndPassword"
+                android:icon="@drawable/ic_settings_lock"
+                />
+        <!-- Security -->
+        <dashboard-tile
+                android:id="@+id/security_settings"
+                android:title="@string/security_settings_title"
+                android:fragment="com.android.settings.SecuritySettings"
+                android:icon="@drawable/ic_settings_security"
+                />
+
+
+        <!-- Backup and reset -->
+        <dashboard-tile
+                android:id="@+id/privacy_settings"
+                android:title="@string/privacy_settings"
+                android:fragment="com.android.settings.PrivacySettings"
+                android:icon="@drawable/ic_settings_backup"
+                />
+
+    </dashboard-category>
+
+    <!-- DEVICE -->
+    <dashboard-category
+            android:id="@+id/device_section"
+            android:key="@string/category_key_device"
+            android:title="@string/header_category_device" >
+
+        <!-- Display -->
+        <dashboard-tile
+                android:id="@+id/display_settings"
+                android:title="@string/display_settings"
+                android:fragment="com.android.settings.DisplaySettings"
+                android:icon="@drawable/ic_settings_display"
+                />
+<!-- Modified by tyd xiaocui 2015-09-15 for 6.0 style audioprofile  -->
+        <!-- Sound -->
+        <dashboard-tile
+                android:id="@+id/notification_settings"
+                android:title="@string/notification_settings"
+                android:fragment="com.mediatek.audioprofile.Editprofile"
+                android:icon="@drawable/ic_settings_notifications"
+                />
+  <!-- Modified by tyd xiaocui 2015-09-15 for 6.0 style audioprofile end  -->
+
+        <dashboard-tile
+            android:id="@+id/statusbar_settings"
+            android:title="@string/statusbar_settings"
+            android:icon="@drawable/ic_settings_statusbar">
+            <intent android:action="com.android.systemui.QuickSettingsPreferenceActivity" />
+        </dashboard-tile>
+        
+        <!--freeme.fanwuyang,2017/08/31, for CChelper-->
+        <dashboard-tile
+            android:id="@+id/cchelper_settings"
+            android:title="@string/cchelper_settings_title"
+            android:icon="@drawable/ic_settings_cchelper" />
+
+        <dashboard-tile
+            android:id="@+id/accessibility_settings_ext"
+            android:fragment="com.android.settings.accessibility.AccessibilitySettingsExt"
+            android:title="@string/accessibility_settings_ext_title"
+            android:icon="@drawable/ic_settings_accessibility_ext" />
+        
+        <!-- Hotknot -->
+        <dashboard-tile
+                android:id="@+id/hotknot_settings"
+                android:title="@string/hotknot_settings_title"
+                android:fragment="com.mediatek.settings.hotknot.HotKnotSettings"
+                android:icon="@drawable/ic_settings_hotknot" />
+        
+        <!-- Storage & Battery-->
+        <dashboard-tile
+                android:id="@+id/storage_battery_settings"
+                android:title="@string/storage_battery_settings"
+                android:fragment="com.android.settings.deviceinfo.StorageAndBatterySettings"
+                android:icon="@drawable/ic_settings_storage"
+                />
+        
+        <!-- Storage 
+        <dashboard-tile
+                android:id="@+id/storage_settings"
+                android:title="@string/storage_settings"
+                android:fragment="com.android.settings.deviceinfo.Memory"
+                android:icon="@drawable/ic_settings_storage"
+                />
+         -->
+        
+        <!-- Battery
+        <dashboard-tile
+                android:id="@+id/battery_settings"
+                android:title="@string/power_usage_summary_title"
+                android:fragment="com.android.settings.fuelgauge.PowerUsageSummary"
+                android:icon="@drawable/ic_settings_battery"
+                />
+         -->
+
+        <!--freeme.shancong,20170804 add storage_settings and battery_settings-->
+        <!-- Storage -->
+        <dashboard-tile
+            android:id="@+id/storage_settings"
+            android:title="@string/storage_settings"
+            android:fragment="com.android.settings.deviceinfo.StorageSettings"
+            android:icon="@drawable/ic_settings_memory"
+            />
+
+        <!-- Battery -->
+        <dashboard-tile
+            android:id="@+id/battery_settings"
+            android:title="@string/power_usage_summary_title"
+            android:fragment="com.android.settings.fuelgauge.PowerUsageSummary"
+            android:icon="@drawable/ic_settings_storage"
+            />
+
+        <!-- Application Settings -->
+        <dashboard-tile
+                android:id="@+id/application_settings"
+                android:title="@string/applications_settings"
+                android:fragment="com.android.settings.applications.ManageApplications"
+                android:icon="@drawable/ic_settings_applications"
+                />
+
+        <!-- freeme.luyangjie, 20170614, add Super headset -->
+        <dashboard-tile
+            android:id="@+id/super_headset"
+            android:title="@string/super_headset_title"
+            android:icon="@drawable/ic_settings_super_headset"
+            android:fragment="com.freeme.settings.DroiSuperHeadSetFragment"
+        />
+
+        <!--freeme.luyangjie,20170609, for Application startup management -->
+        <dashboard-tile
+            android:id="@+id/manage_app_start"
+            android:title="@string/app_management_title"
+            android:icon="@drawable/ic_settings_manage_app"
+        />
+
+        <!--freeme.zhangjunxiang,20170803, for auto clean background-->
+        <dashboard-tile
+            android:id="@+id/auto_clean_background"
+            android:title="@string/auto_clean_background_title"
+            android:icon="@drawable/ic_settings_auto_clean_background"
+        />
+
+        <!--freeme.fanwuyang,2017/08/26, for Mulitiple Accounts-->
+        <dashboard-tile
+            android:id="@+id/mulitiple_accounts"
+            android:title="@string/app_mulitiple_accounts"
+            android:icon="@drawable/ic_settings_mulitiple_accounts" />
+
+        <!-- Manage users -->
+        <dashboard-tile
+                android:id="@+id/user_settings"
+                android:title="@string/user_settings_title"
+                android:fragment="com.android.settings.users.UserSettings"
+                android:icon="@drawable/ic_settings_multiuser"
+                />
+
+        <!-- Manage NFC payment apps -->
+        <dashboard-tile
+                android:id="@+id/nfc_payment_settings"
+                android:title="@string/nfc_payment_settings_title"
+                android:fragment="com.android.settings.nfc.PaymentSettings"
+                android:icon="@drawable/ic_settings_nfc_payment"
+                />
+
+        <!-- Manufacturer hook -->
+        <dashboard-tile
+                android:id="@+id/manufacturer_settings"
+                android:fragment="com.android.settings.WirelessSettings">
+            <intent android:action="com.android.settings.MANUFACTURER_APPLICATION_SETTING" />
+        </dashboard-tile>
+
+    </dashboard-category>
+
+    <!-- SYSTEM -->
+    <dashboard-category
+        android:id="@+id/system_section"
+        android:key="@string/category_key_system"
+        android:title="@string/header_category_system" >
+
+        <!-- freeme.xuqian,2017/09/11, move from about device -->
+        <dashboard-tile
+            android:id="@+id/system_update_settings"
+            android:title="@string/system_update_settings_list_item_title"
+            android:icon="@drawable/ic_settings_update">
+            <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS" />
+        </dashboard-tile>
+
+        <!--freeme.fanwuyang,2017/08/02, for Application Security -->
+        <dashboard-tile
+            android:id="@+id/app_security"
+            android:title="@string/app_security_title"
+            android:icon="@drawable/ic_settings_app_security" />
+
+        <!-- Date & Time -->
+        <dashboard-tile
+                android:id="@+id/date_time_settings"
+                android:title="@string/date_and_time_settings_title"
+                android:fragment="com.android.settings.DateTimeSettings"
+                android:icon="@drawable/ic_settings_date_time"
+                />      
+                
+        <!-- Language -->
+        <dashboard-tile
+                android:id="@+id/language_settings"
+                android:title="@string/language_settings"
+                android:fragment="com.android.settings.inputmethod.InputMethodAndLanguageSettings"
+                android:icon="@drawable/ic_settings_language"
+                />
+                
+        <!--Scheduled power on&off-->
+        <dashboard-tile
+                android:id="@+id/power_settings"
+                android:icon="@drawable/ic_settings_schpwronoff"
+                android:title="@string/schedule_power_on_off_settings_title">
+            <intent android:action="com.android.settings.SCHEDULE_POWER_ON_OFF_SETTING" />
+        </dashboard-tile>
+
+        <!-- Accessibility feedback -->
+        <dashboard-tile
+                android:id="@+id/accessibility_settings"
+                android:title="@string/accessibility_settings"
+                android:fragment="com.android.settings.accessibility.AccessibilitySettings"
+                android:icon="@drawable/ic_settings_accessibility"
+                />
+
+        <!-- Print -->
+        <dashboard-tile
+                android:id="@+id/print_settings"
+                android:title="@string/print_settings"
+                android:fragment="com.android.settings.print.PrintSettingsFragment"
+                android:icon="@drawable/ic_settings_print"
+                />
+
+        <!-- Development -->
+        <dashboard-tile
+                android:id="@+id/development_settings"
+                android:title="@string/development_settings_title"
+                android:fragment="com.android.settings.DevelopmentSettings"
+                android:icon="@drawable/ic_settings_development"
+                />
+        <!-- Instructions -->
+        <dashboard-tile
+                android:id="@+id/instructions"
+                android:title="@string/product_instructions"
+                android:icon="@drawable/ic_settings_instructions"
+                />
+        <!-- About Device -->
+        <dashboard-tile
+                android:id="@+id/about_settings"
+                android:title="@string/about_settings"
+                android:fragment="com.android.settings.DeviceInfoSettings"
+                android:icon="@drawable/ic_settings_about"
+                />
+        
+        <!-- Other system settingcontrols -->
+        <dashboard-tile
+                android:id="@+id/system_settings"
+                android:title="@string/radio_controls_title"
+                android:fragment="com.android.settings.MoreSystemSettings"
+                android:icon="@drawable/ic_system_settings_more"
+                />
+    </dashboard-category>
+
+</dashboard-categories>

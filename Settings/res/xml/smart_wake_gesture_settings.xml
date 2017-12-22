@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="smart_wakeup_settings_parent">
+    <Preference android:key="screen_wakeup_up_enabled"
+        android:title="@string/screen_wakeup_up_enabled" />
+    <Preference android:key="screen_wakeup_down_enabled"
+        android:title="@string/screen_wakeup_down_enabled" />
+    <Preference android:key="screen_wakeup_left_enabled"
+        android:title="@string/screen_wakeup_left_enabled" />
+    <Preference android:key="screen_wakeup_right_enabled"
+        android:title="@string/screen_wakeup_right_enabled" />
+    <Preference android:key="screen_wakeup_c_enabled"
+        android:title="@string/screen_wakeup_c_enabled" />
+    <Preference android:key="screen_wakeup_m_enabled"
+        android:title="@string/screen_wakeup_m_enabled" />
+    <Preference android:key="screen_wakeup_e_enabled"
+        android:title="@string/screen_wakeup_e_enabled" />
+    <Preference android:key="screen_wakeup_o_enabled"
+        android:title="@string/screen_wakeup_o_enabled" />
+    <Preference android:key="screen_wakeup_w_enabled"
+        android:title="@string/screen_wakeup_w_enabled" />
+    <Preference android:key="screen_wakeup_v_enabled"
+        android:title="@string/screen_wakeup_v_enabled" />
+    <Preference android:key="screen_wakeup_s_enabled"
+        android:title="@string/screen_wakeup_s_enabled" />
+    <Preference android:key="screen_wakeup_z_enabled"
+        android:title="@string/screen_wakeup_z_enabled" />
+    <Preference android:key="screen_wakeup_rarrow_enabled"
+        android:title="@string/screen_wakeup_rarrow_enabled" />
+    <Preference android:key="screen_wakeup_tarrow_enabled"
+        android:title="@string/screen_wakeup_tarrow_enabled" />
+</PreferenceScreen>
+

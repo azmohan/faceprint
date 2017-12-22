@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <SwitchPreference
+            android:key="reverse_silent_key"
+            android:title="@string/reverse_silent"
+            android:summary="@string/reverse_silent_info" />
+     <SwitchPreference
+            android:key="smart_dial_key"
+            android:title="@string/smart_dial_title"
+            android:summary="@string/smart_dial_title_summary" />
+         
+         <SwitchPreference
+            android:key="smart_answer_key"
+            android:title="@string/smart_answer_title"
+            android:summary="@string/smart_answer_title_summary" />
+         
+         <Preference android:key="voice_ui" 
+	           android:title="@string/voice_ui_title"
+	           android:summary="@string/voice_ui_summary"
+	           android:persistent="false">
+	           <intent android:action="com.mediatek.voicecommand.VOICE_CONTROL_SETTINGS" />
+          </Preference>
+          
+           <SwitchPreference
+	          android:key="shake_open_app_key"
+	          android:title="@string/shake_open_app"
+	          android:defaultValue="false"/>
+           
+           <ListPreference 
+	          android:key="shake_open_app_value_key"
+	          android:title="@string/shake_open_app_settings"
+	          android:persistent="true"
+	          android:entries="@array/shake_open_app"
+	          android:entryValues="@array/shake_open_app_values"
+	          android:defaultValue="@string/shake_default_value" />
+	
+</PreferenceScreen>

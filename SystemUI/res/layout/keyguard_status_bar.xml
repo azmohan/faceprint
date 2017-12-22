@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2014 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+
+<!-- Extends RelativeLayout -->
+<com.android.systemui.statusbar.phone.KeyguardStatusBarView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui"
+    android:id="@+id/keyguard_header"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/status_bar_height"
+    android:baselineAligned="false"
+    ><!--  modified layout_height by shijiachen,default is  @dimen/status_bar_header_height_keyguard-->
+
+    <com.android.systemui.statusbar.phone.MultiUserSwitch android:id="@+id/multi_user_switch"
+        android:layout_width="@dimen/multi_user_switch_width_keyguard"
+        android:layout_height="@dimen/status_bar_header_height_keyguard"
+        android:layout_alignParentEnd="true"
+        android:visibility="gone"
+        android:background="@drawable/ripple_drawable"
+        android:layout_marginEnd="@dimen/multi_user_switch_keyguard_margin">
+        <ImageView android:id="@+id/multi_user_avatar"
+            android:layout_width="@dimen/multi_user_avatar_keyguard_size"
+            android:layout_height="@dimen/multi_user_avatar_keyguard_size"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"/>
+    </com.android.systemui.statusbar.phone.MultiUserSwitch>
+
+    <LinearLayout android:id="@+id/system_icons_super_container"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/status_bar_header_height"
+        android:layout_toStartOf="@id/multi_user_switch"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginStart="16dp"
+        android:paddingEnd="@dimen/system_icons_keyguard_padding_end">
+        <FrameLayout android:id="@+id/system_icons_container"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/status_bar_height"
+            android:layout_gravity="center_vertical"
+            >
+            <include layout="@layout/system_icons" />
+        </FrameLayout>
+        <TextView android:id="@+id/battery_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/header_battery_margin_keyguard"
+            android:paddingEnd="@dimen/battery_level_padding_end"
+            android:textColor="#ffffff"
+            android:visibility="gone"
+            android:textSize="@dimen/battery_level_text_size"
+            android:importantForAccessibility="noHideDescendants"/>
+    </LinearLayout>
+
+   <!--  modify by Droi shijiachen 2015-8-20 for customize keyguard  start -->
+   <!-- <com.android.keyguard.CarrierText
+        android:id="@+id/keyguard_carrier_text"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/status_bar_header_height_keyguard"
+        android:layout_marginLeft="@dimen/keyguard_carrier_text_margin"
+        android:layout_toStartOf="@id/system_icons_super_container"
+        android:gravity="center_vertical"
+        android:ellipsize="marquee"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ffffff"
+        android:singleLine="true" />  -->
+        <com.android.keyguard.CarrierText
+        android:id="@+id/keyguard_carrier_text"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/status_bar_header_height_keyguard"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="@dimen/keyguard_carrier_text_margin"
+        android:layout_toStartOf="@id/system_icons_super_container"
+        android:gravity="center_vertical"
+        android:ellipsize="marquee"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ffffff"
+        android:visibility="gone"
+        android:singleLine="true" />
+        <!--  modify by Droi shijiachen 2015-8-20 for customize keyguard  end -->
+	<FrameLayout 
+	    android:id="@+id/centerBlock"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerInParent="true">
+	    <!--  -->
+	</FrameLayout>
+	 <!-- added by shijiachen 20150820, display the notification in keyguard -->
+	 <!-- freeme, gouzhouping, 20160929, for the notification icon incomplete show, default is android:layout_height="wrap_content"-->
+	 <LinearLayout 
+	     android:layout_width="wrap_content"
+	     android:layout_height="match_parent"
+	     android:layout_alignParentLeft="true"
+	     android:layout_marginStart="6dp"
+	     android:layout_toRightOf="@id/keyguard_carrier_text"
+	     android:layout_toLeftOf="@id/centerBlock"
+       android:orientation="horizontal">
+
+        <include layout="@layout/droi_signal_cluster_view_left" 
+          android:id="@+id/signal_cluster_left"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center_vertical"
+          android:layout_gravity="center_vertical"/>
+        <!--Added by Linguanrong for SystemUI Settings, 2013-11-19-->
+        <TextView android:id="@+id/statusbar_carrier_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.StatusBar.Clock"
+            android:layout_gravity="left|center_vertical"
+            android:gravity="center_vertical|left" />
+        <!--Linguanrong-->
+        <!-- Modified by tyd hanhao for tyd00583379 2015-12-10 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+            
+            <com.android.systemui.statusbar.phone.IconMerger android:id="@+id/kgNotificationIcons"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_alignParentStart="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"/>
+
+            <TextView android:id="@+id/kgMoreIcon"
+                android:layout_width="@dimen/status_bar_icon_size"
+                android:layout_height="14dip"
+                android:layout_alignParentEnd="true"
+                android:paddingLeft="1dip"
+                android:paddingRight="1dip"
+                android:background="@drawable/droi_more_icon_border"
+                android:gravity="center"
+                android:layout_gravity="center_vertical|end"
+                android:textStyle="bold"
+                android:textSize="10.5sp"
+                android:visibility="gone"/>
+        </LinearLayout>
+      <!-- Modified end -->
+	 </LinearLayout>
+</com.android.systemui.statusbar.phone.KeyguardStatusBarView>

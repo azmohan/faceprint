@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="fingerprint_func">وظائف</string>
+    <string name="camera_capture_enable">تحكم الكاميرا</string>
+    <string name="nv_camera_cpture_des">إلمس لالتقاط صورة</string>
+    <string name="alarm_control_enable">"المنبه"</string>
+    <string name="nv_alarm_control_des">إلمس لإغلاق المنبه</string>
+    <string name="dial_enable">طلب مكالمة عن طريق البصمة</string>
+    <string name="nv_dial_control_des">لمسة طويلة للطلب في لوحة الاتصال الهاتفي</string>
+    <string name="home_scroll_enable">تمرير سطح المكتب</string>
+    <string name="nv_home_control_des">إلمس لتمرير صفحات رئيسية</string>
+    <string name="video_operate_enable">بالتحكم بالفيديو</string>
+    <string name="nv_video_control_des">إلمس للتحكم في تشغيل الفيديو</string>
+    <string name="music_operate_enable">التحكم بالموسيقى</string>
+    <string name="nv_music_control_des">إلمس للتحكم في تشغيل الموسيقى</string>
+    <string name="nv_get_it">احصل عليه</string>
+</resources>

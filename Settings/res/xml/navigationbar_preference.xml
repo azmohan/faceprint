@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <SwitchPreference
+        android:key="toggle_navigationbar_preference"
+        android:title="@string/navigationbar_settings_tip"
+        android:persistent="false" />
+
+    <PreferenceCategory
+        android:title = "@string/navigationbar_settings_category">
+
+        <com.android.settings.accessibility.NavigationBarType
+            android:key="navigationbar_type" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

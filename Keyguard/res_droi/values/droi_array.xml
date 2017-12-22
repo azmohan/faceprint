@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     add for power-off alarm
+     TODO: need to remove not used items. 
+  -->
+
+<resources>
+    <!-- add by droi renjing 2015-01-23 for power off alarm -->
+    <array name="droi_dismiss_drawables_no">
+        <item>@drawable/mtk_ic_alarm_alert_dismiss_pwron</item>
+        <item>null</item>
+        <item>@drawable/mtk_ic_alarm_alert_dismiss_pwroff</item>
+        <item>@null</item>
+    </array>
+</resources>

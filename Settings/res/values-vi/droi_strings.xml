@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="fingerprint_func">Chức năng</string>
+    <string name="camera_capture_enable">Điều khiển Camera</string>
+    <string name="nv_camera_cpture_des">Chạm để chụp ảnh</string>
+    <string name="alarm_control_enable">"Báo thức"</string>
+    <string name="nv_alarm_control_des">Chạm để đóng báo thức</string>
+    <string name="dial_enable">Quay số vân tay</string>
+    <string name="nv_dial_control_des">Nhấn lâu để quay số trong bàn phím số</string>
+    <string name="home_scroll_enable">Trượt desktop</string>
+    <string name="nv_home_control_des">Chạm để cuộn trang chủ</string>
+    <string name="video_operate_enable">Điều khiển video</string>
+    <string name="nv_video_control_des">Chạm để điều khiển phát video</string>
+    <string name="music_operate_enable">Điều khiển âm nhạc</string>
+    <string name="nv_music_control_des">Chạm để điều khiển phát nhạc</string>
+    <string name="nv_get_it">Truy cập nó</string>
+</resources>

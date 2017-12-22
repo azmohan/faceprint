@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Screen pinning dialog title. -->
+    <string name="droi_screen_pinning_title">Screen is pinned</string>
+    <!-- Screen pinning dialog description. -->
+    <string name="droi_screen_pinning_description">This keeps it in view until you unpin. Touch and hold Back and Overview at the same time to unpin.</string>
+    <!-- Screen pinning dialog description when in accessibility mode. -->
+    <string name="droi_screen_pinning_description_accessible">This keeps it in view until you unpin. Touch and hold Overview to unpin.</string>
+    <!-- Screen pinning positive response. -->
+    <string name="droi_screen_pinning_positive">Got it</string>
+    <!-- Screen pinning negative response. -->
+    <string name="droi_screen_pinning_negative">No thanks</string>
+
+    <string name="droi_screen_pinning_description_physical_key">This keeps it in view until you unpin. Touch and hold Back key to unpin.</string>
+
+    <!-- Recents: The empty recents string. [CHAR LIMIT=NONE] -->
+    <string name="droi_recents_empty_message">Your recent screens appear here</string>
+    <!-- Recents: The info panel app info button string. [CHAR LIMIT=NONE] -->
+    <string name="droi_recents_app_info_button_label">Application Info</string>
+    <!-- Recents: The screen pinning button. [CHAR LIMIT=NONE] -->
+    <string name="droi_recents_lock_to_app_button_label">screen pinning</string>
+    <!-- Recents: Temporary string for the button in the recents search bar. [CHAR LIMIT=NONE] -->
+    <string name="droi_recents_search_bar_label">search</string>
+    <!-- Recents: Launch error string. [CHAR LIMIT=NONE] -->
+    <string name="droi_recents_launch_error_message">Could not start <xliff:g id="app" example="Calendar">%s</xliff:g>.</string>
+    <!-- Recents: Dismiss all button. [CHAR LIMIT=NONE] -->
+    <string name="droi_recents_dismiss_all_message">Dismiss all applications</string>
+
+    <string name="droi_recents_caption_resize">Select new task layout</string>
+
+
+    <!-- Content description to tell the user that this button will remove an application from recents -->
+    <string name="droi_accessibility_recents_item_will_be_dismissed">Dismiss <xliff:g id="app" example="Calendar">%s</xliff:g>.</string>
+    <!-- Content description to tell the user an application has been removed from recents -->
+    <string name="droi_accessibility_recents_item_dismissed"><xliff:g id="app" example="Calendar">%s</xliff:g> dismissed.</string>
+    <!-- Content description to tell the user all applications has been removed from recents -->
+    <string name="droi_accessibility_recents_all_items_dismissed">All recent applications dismissed.</string>
+    <!-- Content description to tell the user an application has been launched from recents -->
+    <string name="droi_accessibility_recents_item_launched">Starting <xliff:g id="app" example="Calendar">%s</xliff:g>.</string>
+    <!-- Content description of individual recents task. -->
+    <string name="droi_accessibility_recents_task_header"><xliff:g id="app" example="Chrome">%1$s</xliff:g> <xliff:g id="activity_label" example="www.google.com">%2$s</xliff:g></string>
+
+    <!-- Button name for "Cancel". [CHAR LIMIT=NONE] -->
+    <string name="droi_cancel">Cancel</string>
+
+    <string name="droi_qs_brightness_title_auto">Auto</string>
+    <string name="droi_qs_brightness_title_manual">Manual</string>
+    <string name="droi_qs_brightness_title_begin">Min</string>
+    <string name="droi_qs_brightness_title_end">Max</string>
+    <string name="droi_qs_brightness_title_default">Default</string>
+
+    <string name="droi_status_bar_no_recent_apps">Your recent screens appear here</string>
+
+    <string name="droi_ram_available">Available</string>
+
+    <string name="droi_qs_oneclear_label">Optimization</string>
+    <string name="droi_qs_lockscreen_label">LockScreen</string>
+    <string name="droi_qs_screenrecording_label">RecordScreen</string>
+    <string name="droi_qs_supershot_label">Supershot</string>
+    <string name="droi_qs_floattask_label">FloatTask</string>
+    <string name="droi_qs_sleep_label">Sleep</string>
+    <string name="droi_qs_reboot_label">Reboot</string>
+    <string name="droi_qs_shutdown_label">PowerOff</string>
+    <string name="droi_qs_powersaving_label">PowerSaving</string>
+    <!-- freeme,gouzhouping. 20160614, for freeme comman.-->
+    <string name="droi_qs_more_label">Edit</string>
+    
+    <string name="qs_tile_battery_percent_format"><xliff:g id="PERCENTAGE">%s</xliff:g></string>
+    
+    <!--freeme.gouzhouping,20160608,for freemeCommon -->
+    <string name="droi_qs_profile_normal">"Sound"</string>
+    <string name="droi_qs_profile_meeting">"Vibrate"</string>
+    <string name="droi_qs_profile_silent">"Silent"</string>
+    <string name="droi_qs_profile_outdoor">"Outdoor"</string>
+
+    <string name="quicksettings_notification_style_title">Style of toggles page</string>
+    <string name="quicksettings_category_notification">Notification</string>
+    <string name="quicksettings_category_statusbar">Statusbar</string>
+    <string name="quicksettings_category_settings">Settings</string>
+    <string name="quicksettings_preference_title">Notification Settings</string>
+    <string name="quicksettings_statusbar_page_concise">Concise</string>
+    <string name="quicksettings_statusbar_page_single">Single</string>
+    <string name="quicksettings_statusbar_page_bottom">Bottom</string>
+    <string name="quicksettings_custom_notifications">Manage notifications</string>
+    <string name="quicksettings_custom_toggles">Sort toggles</string>
+    <string name="quicksettings_unexpand_statusbar_title">Can\'t expand statusbar in lockscreen</string>
+    <string name="quicksettings_unexpand_statusbar_summary">Can\'t touch drop to show notifications in lockscreen</string>
+    <string name="quicksettings_carrier_label">Show the carrier</string>
+    <string name="quicksettings_network_speed">Show current network speed</string>
+    <string name="quicksettings_battery_percent">Show the Battery percent</string>
+    <string name="quicksettings_statusbar_data_usage_title">Show traffic usage</string>
+    <string name="quicksettings_statusbar_data_usage_summary">Pull down notification bar to get traffic usage info</string>
+    <string name="quicksettings_statusbar_battery_mode">Battery mode</string>
+    <string name="quicksettings_statusbar_battery_mode_summary">show battery mode in notification bar</string>
+
+    <string name="timer_second_tip_start">Refresh interval of</string>
+    <string name="timer_second_tip_end">second</string>
+    <string name="quicksettings_refresh_interval">Network speed refresh rate</string>
+    <string name="quicksettings_refresh_interval_summary">Refresh interval of <xliff:g id="NUMBER">%d</xliff:g> second</string>
+
+    <string name="custom_carrier_title">Custom carrier</string>
+    <string name="custom_carrier_summary">Show custom carrier replace default</string>                                                       
+    <string name="custom_carrier_hint">Enter a custom string</string>
+    <string name="custom_carrier_tip">Custom character can not be null and must not be greater than 10 bytes</string>
+
+    <!-- freeme,gouzhouping. 20160623, for freeme comman -->
+    <string name="qstile_order_title">Edit</string>
+    <string name="qs_tile_order_subscribe_line">According to the drag long, according to the following nine switch in sequence</string>
+    <string name="qs_tile_order_brightness_switch">Show brightness control switch</string> 
+    <string name="qstile_order_reset_menu">Reset</string>
+
+    <string name="qs_order_sort_tip">Hold to edit shotcuts.</string>
+    <string name="text1">Carrier Carrier Carrier</string>
+    <string name="text2">Data Data Data</string>
+
+    <string name="statusbar_data_use_exceed_new">Today:<xliff:g id="number">%s</xliff:g> Exceed:<xliff:g id="number">%s</xliff:g></string>
+    <string name="statusbar_data_use_normal_new">Today:<xliff:g id="number">%s</xliff:g> Remain:<xliff:g id="number">%s</xliff:g></string>
+    <string name="keyguard_notification_tips">Unlock to read notification details</string>
+    <!-- Droi Override --><string name="data_usage">"Data usage"</string>
+
+    <!-- Modified begin by droi xupeng 20160428, make battery icon can be horizontal -->
+    <string name="charging_normal_tip">The phone has connected to a low-power charging device,the speed of charging is slow.</string>
+    <!-- Modified end -->
+</resources>

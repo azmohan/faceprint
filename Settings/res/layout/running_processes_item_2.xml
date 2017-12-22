@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+    android:paddingTop="8dip"
+    android:paddingBottom="8dip"
+    android:columnCount="2" >
+    
+        <ImageView android:id="@+id/icon"
+            android:layout_width="@android:dimen/app_icon_size"
+            android:layout_height="@android:dimen/app_icon_size"
+            android:layout_marginEnd="8dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:scaleType="fitCenter"/>
+
+        <RelativeLayout android:id="@+id/name_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/icon"
+            android:gravity="center_vertical"
+            android:layout_marginRight="60dp"
+            android:layout_centerInParent="true">
+                <TextView android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:paddingRight="4dip"
+                    android:textAppearance="@android:style/TextAppearance.Material.Subhead"
+                    android:textAlignment="viewStart"
+                    android:ellipsize="end" 
+                    android:lines="1"
+                    android:scrollHorizontally="true"/>
+                <TextView android:id="@+id/size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/name"
+                    android:paddingRight="4dip"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textAppearance="@android:style/TextAppearance.Material.Body1"
+                    android:textColor="?android:attr/textColorSecondary" />
+        </RelativeLayout>
+        <com.android.settings.applications.DontPressWithParentImageView
+            android:id="@+id/kill_icon"
+            android:layout_width="57dp"
+            android:layout_height="39dp"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="8dip"
+            android:text="@string/service_stop"
+            android:textAppearance="@android:style/TextAppearance.Material.Body2"
+            android:clickable="true"
+            android:focusable="false"
+            android:scaleType="center"
+            android:background="@drawable/btn_default_holo_light"
+            android:textColor="#2c3036" />
+        
+         <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" 
+	        android:layout_gravity="fill_horizontal|top"
+	        android:visibility="gone">
+
+	        <TextView
+	            android:id="@+id/description"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textAppearance="?android:attr/textAppearanceSmall"
+	            android:textAlignment="viewStart" />
+	
+	        <TextView
+	            android:id="@+id/uptime"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginStart="8dip"
+	            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
+</RelativeLayout>

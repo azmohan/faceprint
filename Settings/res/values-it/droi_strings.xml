@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="fingerprint_func">funzioni</string>
+    <string name="camera_capture_enable">Cattura</string>
+    <string name="nv_camera_cpture_des">Tocca per scattare foto</string>
+    <string name="alarm_control_enable">"Sveglia"</string>
+    <string name="nv_alarm_control_des">Toccare per spegnere la sveglia</string>
+    <string name="dial_enable">Quadrante impronta digitale</string>
+    <string name="nv_dial_control_des">Toccare a lungo per digitare sulla tastiera</string>
+    <string name="home_scroll_enable">Scorrimento Home</string>
+    <string name="nv_home_control_des">Tocca per scorrere le home page</string>
+    <string name="video_operate_enable">Controllo Video</string>
+    <string name="nv_video_control_des">Tocca per controllare la riproduzione video</string>
+    <string name="music_operate_enable">Controllo Musica</string>
+    <string name="nv_music_control_des">Tocca per controllare la riproduzione musicale</string>
+    <string name="nv_get_it">Ottienilo</string>
+</resources>

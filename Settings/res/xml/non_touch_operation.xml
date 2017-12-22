@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="seperate_motion_operation_settings_parent"
+    android:title="@string/seperate_motion_operation_settings_label" >
+    
+    <PreferenceCategory
+        android:key="generic_mode_key"
+        android:title="@string/generic_mode_title" >
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="motion_gesture_generic_setting"
+            android:title="@string/motion_gesture_generic_setting" />
+        
+        <Preference
+            android:key="generic_mode_description_key"
+            android:summary="@string/generic_mode_descrption"
+            android:enabled="false"
+            android:selectable="false" />
+    </PreferenceCategory>
+    
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="motion_on_off"
+        android:title="@string/motion_on"
+        android:switchTextOn="@string/motion_on"
+        android:switchTextOff="@string/motion_off"
+        android:layout="@layout/freeme_switch_preference"/>
+
+    <PreferenceCategory
+        android:key="private_mode_key"
+        android:title="@string/private_mode_title" >
+    
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="motion_unlock_setting"
+            android:title="@string/motion_unlock_setting" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="motion_galimg_setting"
+            android:title="@string/touch_control_maps_setting" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="motion_lncrslide_setting"
+            android:title="@string/touch_control_standby_interface_setting" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="motion_ebook_setting"
+            android:title="@string/touch_control_electronic_book_setting" />
+        <!-- Added by tyd YuanChengye 20131101,for motion video setting -->
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="motion_video_setting"
+            android:title="@string/touch_control_video_setting" />
+        <!-- Added by tyd linliangliang 20131104,for motion music setting -->
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="motion_music_setting"
+            android:title="@string/touch_control_music_setting" />
+    </PreferenceCategory>
+    
+    <!-- Added by tyd jlwang 20140823,for motion phone setting -->
+    <PreferenceCategory
+        android:key="phone_mode_key"
+        android:title="@string/call_operation" >
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="motion_phone_setting"
+            android:title="@string/touch_control_phone_setting" />
+        <ListPreference
+            android:key="motion_phone_setting_change"
+            android:title="@string/motion_phone_setting_change_title"
+            android:persistent="true"
+            android:entries="@array/motion_phone_setting_change_array"
+            android:entryValues="@array/motion_phone_setting_change_array_values"
+            android:defaultValue="@string/motion_phone_setting_change_default_value"  />
+    </PreferenceCategory>
+
+</PreferenceScreen>

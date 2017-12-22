@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/conventional_title">
+        <SwitchPreference android:key="super_headset_control"
+            android:title="@string/super_headset_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/Function_title"
+        android:dependency="super_headset_control">
+        <com.freeme.settings.FreemeSwitchPreference android:key="click_function"
+            android:title="@string/click_function_title" />
+
+        <com.freeme.settings.FreemeSwitchPreference android:key="double_click_function"
+            android:title="@string/double_click_function_title" />
+
+        <com.freeme.settings.FreemeSwitchPreference android:key="Three_click_function"
+            android:title="@string/Three_click_function_title" />
+
+        <com.freeme.settings.FreemeSwitchPreference android:key="long_click_function"
+            android:title="@string/long_click_function_title" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

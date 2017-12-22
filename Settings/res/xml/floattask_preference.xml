@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" >
+
+    <SwitchPreference
+        android:key="toggle_floattask_preference"
+        android:title="@string/floattask_settings"
+        android:summary="@string/floattask_summary"
+        android:persistent="false" />
+
+    <SwitchPreference
+        android:key="toggle_quick_floattask_preference"
+        android:title="@string/quick_floattask_settings"
+        android:summary="@string/quick_floattask_summary"
+        android:persistent="false" />
+
+</PreferenceScreen>

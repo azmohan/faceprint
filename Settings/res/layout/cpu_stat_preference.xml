@@ -1,0 +1,71 @@
+<!-- <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cpu_stat_parent"
+    android:layout_width="@dimen/cpu_usage_parent"
+    android:layout_height="match_parent"
+    android:gravity="right"
+    /> -->
+    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:gravity="center_vertical"
+    android:paddingStart="16dip"
+    android:paddingEnd="?android:attr/scrollbarSize">
+
+    <!-- <View
+        android:layout_width="@dimen/preference_widget_width"
+        android:layout_height="match_parent" /> -->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dip"
+        android:layout_marginEnd="6dip"
+        android:layout_marginTop="6dip"
+        android:layout_marginBottom="6dip"
+        android:layout_weight="1">
+
+        <TextView 
+            android:id="@+android:id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceListItem"
+            android:textColor="?android:attr/textColorPrimary"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal" />
+
+        <TextView 
+            android:id="@+android:id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@android:id/title"
+            android:layout_alignStart="@android:id/title"
+            android:textAppearance="?android:attr/textAppearanceListItemSecondary"
+            android:textColor="?android:attr/textColorSecondary"
+            android:ellipsize="end"
+            android:maxLines="2" />
+
+    </RelativeLayout>
+    
+    <!-- Preference should place its actual preference widget here. -->
+    <LinearLayout
+	    android:id="@+id/cpu_stat_parent"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:gravity="right">
+        <LinearLayout
+			android:id="@+id/cpu_stat_parent_first_line"
+		    android:layout_width="@dimen/cpu_usage_parent"
+		    android:layout_height="?android:attr/listPreferredItemHeight"
+		    android:gravity="right"/>
+        <LinearLayout
+			android:id="@+id/cpu_stat_parent_second_line"
+		    android:layout_width="@dimen/cpu_usage_parent"
+		    android:layout_height="?android:attr/listPreferredItemHeight"
+		    android:gravity="right"
+		    android:visibility="gone"/>
+    </LinearLayout>
+</LinearLayout>

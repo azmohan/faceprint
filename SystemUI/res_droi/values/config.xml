@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- These resources are around just to allow their values to be customized
+     for Droi -->
+<resources>
+
+    <!-- force expand QSPanel when drag from top, by droi hanhao 2016-01-08 -->
+    <bool name="config_force_expanded_qs">true</bool>
+
+    <!-- customized qspanel style for FreemeOS, by droi hanhao 2016-01-08-->
+    <bool name="config_customized_qs_panel">true</bool>
+
+    <!-- show brigheness mirror in bottom of qs panel -->
+    <bool name="config_show_brigthness_mirror_bottom">true</bool>
+
+    <!-- customized qsTile rows -->
+    <integer name="config_qs_shown_rows">2</integer>
+
+    <!--customized qsTile num column every page -->
+    <integer name="config_qs_shown_num_column">5</integer>
+
+    <!-- customized 'More' or 'Sort' tile's position -->
+    <integer name="config_qs_sort_item_position">-1</integer>
+
+    <!-- customized StatusBarHeaderView, force collapsed header -->
+    <bool name="config_customized_statusbar_header">true</bool>
+
+    <!-- customized if show BrightnessController Auto/Manual button -->
+    <bool name="config_customized_brightness">true</bool>
+
+    <bool name="config_customized_qs_tile">true</bool>
+
+    <string name="droi_quick_settings_tiles_default" translatable="false">screenrecorder,wifi,dataconnection,bt,airplane,rotation,oneclear,location,audioprofile,flashlight,supershot,powersaving,lockscreen,cell,hotknot,floattask,sleep,reboot,shutdown,more
+    </string>
+    
+    <string name="droi_quick_settings_tiles" translatable="false">screenrecorder,wifi,dataconnection,bt,airplane,rotation,oneclear,location,audioprofile,flashlight,supershot,powersaving,lockscreen,cell,hotknot,floattask,sleep,reboot,shutdown,more
+    </string>
+    
+    <integer name="droi_status_bar_recents_bg_gradient_degrees">90</integer>
+
+    <bool name="droi_show_blur_background">false</bool>
+</resources>

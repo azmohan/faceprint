@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <dimen name="droi_battery_level_margin_bottom">2.7dp</dimen>
+     <dimen name="droi_battery_margin_top">1.5dp</dimen>
+     <dimen name="droi_qs_time_size">23dp</dimen>
+</resources>

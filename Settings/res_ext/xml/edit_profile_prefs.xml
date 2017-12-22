@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:persistent="false"
+    android:orderingFromXml="true">
+
+    <PreferenceCategory
+        android:key="general"
+        android:title="@string/sound_category_sound_title"/>
+        <!--<CheckBoxPreference 
+            android:key="phone_vibrate" 
+            android:title="@string/vibrate_title"
+            android:summary="@string/Phone_vibrate_summary"/>
+        <com.mediatek.audioprofile.RingerVolumePreference
+            android:key="ring_volume"
+            android:title="@string/all_volume_title"
+            android:dialogTitle="@string/all_volume_title"
+            android:persistent="false"/>-->
+
+    <!-- Media volume -->
+    <!-- <com.mediatek.audioprofile.VolumeSeekBarPreference
+            android:key="media_volume"
+            android:icon="@*android:drawable/ic_audio_vol"
+            android:title="@string/media_volume_option_title" /> -->
+            
+<!--@{ freeme xiaocui, 20160526. 6.0 style audioprofile-->
+
+    <!-- Alarm volume 
+    <com.mediatek.audioprofile.VolumeSeekBarPreference
+            android:key="alarm_volume"
+            android:icon="@*android:drawable/ic_audio_alarm"
+            android:title="@string/alarm_volume_option_title" />
+-->
+
+    <!-- Ring volume 
+    <com.mediatek.audioprofile.VolumeSeekBarPreference
+            android:key="ring_volume"
+            android:icon="@*android:drawable/ic_audio_ring_notif"
+            android:title="@string/ring_volume_option_title" />
+@}-->
+
+<!--@{ freeme xiaocui, 20160526. 6.0 style audioprofile-->
+        <ListPreference
+               android:key="ringtonemode"
+               android:title="@string/sound_mode"
+               android:summary="@string/sound_mode"
+               android:entries="@array/sound_mode_name"
+               android:entryValues="@array/sound_mode_values"
+               android:defaultValue="0"
+               ></ListPreference>
+<!--@}-->
+        
+        <com.mediatek.audioprofile.RingerVolumePreference
+            android:key="ring_volume"
+            android:title="@string/all_volume_title"
+            android:dialogTitle="@string/all_volume_title"
+            android:persistent="false"/>
+
+    <!-- Notification volume 
+    <com.mediatek.audioprofile.VolumeSeekBarPreference
+            android:key="notification_volume"
+            android:icon="@*android:drawable/ic_audio_ring_notif"
+            android:title="@string/notification_volume_option_title" />
+ -->
+<!--@{ freeme xiaocui, 20160526. Custom Ringtone
+        <com.mediatek.audioprofile.DefaultRingtonePreference
+            android:key="phone_ringtone" 
+            android:title="@string/voice_call_title"
+            android:dialogTitle="@string/ringtone_title"
+            android:persistent="false"
+            android:ringtoneType="ringtone"/>
+        <com.mediatek.audioprofile.DefaultRingtonePreference
+            android:key="video_call_ringtone" 
+            android:title="@string/video_call_title"
+            android:persistent="false"/>
+        <com.mediatek.audioprofile.DefaultRingtonePreference
+            android:key="sip_call_ringtone" 
+            android:title="@string/sip_call_title"
+            android:persistent="false"/>
+@}-->
+<!--@{ freeme xiaocui, 20160526. Custom Ringtone-->
+        <com.mediatek.audioprofile.DefaultPreference
+            android:key="phone_ringtone" 
+            android:title="@string/voice_call_title"
+            android:summary="@string/voice_call_summary"
+            android:persistent="false"/>
+        <com.mediatek.audioprofile.DefaultPreference
+            android:key="video_call_ringtone" 
+            android:title="@string/video_call_title"
+            android:summary="@string/video_call_summary"
+            android:persistent="false"/>
+        <com.mediatek.audioprofile.DefaultPreference
+            android:key="sip_call_ringtone" 
+            android:title="@string/sip_call_title"
+            android:summary="@string/sip_call_summary"
+            android:persistent="false"/>
+<!-- @} -->
+
+    <!--</PreferenceCategory> -->
+<!--@{ freeme xiaocui, 20160526. Custom Ringtone
+    <PreferenceCategory
+            android:key="notifications"
+            android:title="@string/sound_category_notification_title">
+        <com.mediatek.audioprofile.DefaultRingtonePreference
+            android:key="notifications_ringtone" 
+            android:title="@string/notification_sound_title"
+            android:persistent="false"/>
+    </PreferenceCategory>
+@}-->
+
+<!--@{ freeme xiaocui, 20160526. Custom Ringtone-->
+    <PreferenceCategory
+            android:key="messages"
+            android:title="@string/zzzz_sound_category_message_title">
+        <com.mediatek.audioprofile.DefaultPreference
+            android:key="messages_ringtone"
+            android:title="@string/zzzz_message_sound_title"
+            android:summary="@string/zzzz_message_sound_summary"
+            android:persistent="false"/>
+    </PreferenceCategory>
+
+    <com.mediatek.audioprofile.DefaultPreference
+        android:key="notifications_ringtone" 
+        android:title="@string/notification_sound_title"
+        android:dialogTitle="@string/notification_ringtone_title"
+        android:persistent="false"
+        android:ringtoneType="notification"/>    
+
+    <PreferenceCategory
+        android:key="feedback"
+        android:title="@string/sound_category_feedback_title"/>
+        <!-- phone vibrat -->
+        <SwitchPreference 
+            android:key="phone_vibrate" 
+            android:title="@string/vibrate_title"
+            android:summary="@string/Phone_vibrate_summary"/>
+        <!-- Dial pad tones -->
+        <SwitchPreference 
+            android:key="audible_touch_tones" 
+            android:title="@string/dtmf_tone_enable_title"
+            android:switchTextOff=""
+            android:switchTextOn=""
+            android:persistent="false"/>
+        <!-- Touch sounds -->
+        <SwitchPreference 
+            android:key="audible_selection" 
+            android:title="@string/sound_effects_enable_title"
+            android:switchTextOff=""
+            android:switchTextOn=""
+            android:persistent="false"/>
+        <!-- Screen locking sounds -->
+        <SwitchPreference 
+            android:key="screen_lock_sounds"
+            android:title="@string/lock_sounds_enable_title"
+            android:switchTextOff=""
+            android:switchTextOn=""
+            android:persistent="false"/>
+        <!-- Vibrate on touch -->
+        <SwitchPreference 
+            android:key="haptic_feedback" 
+            android:title="@string/haptic_feedback_enable_title"
+            android:switchTextOff=""
+            android:switchTextOn=""
+            android:persistent="false"/>
+        <!-- @{ freeme.menglingqiang， 20160928. add boot and shutdown ringtone. -->
+        <!--boot and shutdown ringtone -->
+        <SwitchPreference
+            android:key="boot_shutdown_ringtone"
+            android:switchTextOff=""
+            android:switchTextOn=""
+            android:persistent="false"/>
+        <!-- @} -->
+<!--@{ freeme xiaocui, 20160526. 6.0 style audioprofile-->   
+  <!-- Sound Enhancement -->
+    <PreferenceScreen
+        android:key="sound_enhancement"
+        android:title="@string/sound_enhancement_title" 
+        android:fragment="com.mediatek.audioprofile.SoundEnhancement"/>
+</PreferenceScreen>
+<!-- @} -->    

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="fingerprint_func">ฟังก์ชั่น</string>    <string name="camera_capture_enable">การถ่ายภาพ</string>
+    <string name="nv_camera_cpture_des">สัมผัสเพื่อถ่ายรูป</string>
+    <string name="alarm_control_enable">"เตือน"</string>
+    <string name="nv_alarm_control_des">สัมผัสเพื่อปิดการตั้งปลุก</string>
+    <string name="dial_enable">การโทรด้วยรอยนิ้วมือ</string>
+    <string name="nv_dial_control_des">สัมผัสปุ่มตัวเลขค้างไว้</string>
+    <string name="home_scroll_enable">สไลด์หน้าโฮม</string>
+    <string name="nv_home_control_des">สัมผัสเพื่อเลื่อนหน้าหลักต่าง ๆ</string>
+    <string name="video_operate_enable">ควบคุมวิดีโอ</string>
+    <string name="nv_video_control_des">สัมผัสเพื่อควบคุมการเล่นวิดีโอ</string>
+    <string name="music_operate_enable">ควบคุมเพลง</string>
+    <string name="nv_music_control_des">สัมผัสเพื่อควบคุมการเล่นเพลง</string>
+    <string name="nv_get_it">รับ</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="smart_wakeup_settings_parent" >
+
+    <Preference
+        android:key="select_phone_wake_setting"
+        android:title="@string/take_phone_mode_title" />
+    <Preference
+        android:key="select_sms_wake_setting"
+        android:title="@string/send_sms_mode_title" />
+    <Preference
+        android:key="select_app_wake_setting"
+        android:title="@string/open_app_mode_title" />
+    <Preference
+        android:key="select_musiccontrol_wake_setting"
+        android:title="@string/control_music_mode_title" />
+    <Preference
+        android:key="select_unlockscreen_wake_setting"
+        android:title="@string/unlock_screen_mode_title" />
+
+</PreferenceScreen>

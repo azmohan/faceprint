@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="droi_qs_brightness_title_auto">自动</string>
+    <string name="droi_qs_brightness_title_manual">手动</string>
+    <string name="droi_qs_brightness_title_begin">最暗</string>
+    <string name="droi_qs_brightness_title_end">最亮</string>
+    <string name="droi_qs_brightness_title_default">默认</string>
+    
+    <!-- String for QSTiles -->
+    <string name="droi_qs_oneclear_label">一键清理</string>
+    <string name="droi_qs_lockscreen_label">一键锁屏</string>
+    <string name="droi_qs_screenrecording_label">屏幕录制</string>
+    <string name="droi_qs_supershot_label">超级截屏</string>
+    <string name="droi_qs_floattask_label">悬浮多任务</string>
+    <string name="droi_qs_sleep_label">休眠</string>
+    <string name="droi_qs_reboot_label">重启</string>
+    <string name="droi_qs_shutdown_label">关机</string>
+    <string name="droi_qs_powersaving_label">智能省电</string>
+    <!-- freeme,gouzhouping. 20160614,for freeme comman. -->
+    <string name="droi_qs_more_label">编辑</string>
+    
+    <string name="droi_qs_profile_normal">"声音"</string>
+    <string name="droi_qs_profile_meeting">"振动"</string>
+    <string name="droi_qs_profile_silent">"静音"</string>
+    <string name="droi_qs_profile_outdoor">"户外"</string>
+
+    <!-- Screen pinning dialog title. -->
+    <string name="droi_screen_pinning_title">"已固定屏幕"</string>
+    <!-- Screen pinning dialog description. -->
+    <string name="droi_screen_pinning_description">"这将会固定显示此屏幕，直到您取消固定为止。触摸并同时按住“返回”和“概览”即可取消固定屏幕。"</string>
+    <!-- Screen pinning dialog description when in accessibility mode. -->
+    <string name="droi_screen_pinning_description_accessible">"这将会固定显示此屏幕，直到您取消固定为止。触摸并按住“概览”即可取消固定屏幕。"</string>
+    <!-- Screen pinning positive response. -->
+    <string name="droi_screen_pinning_positive">"知道了"</string>
+    <!-- Screen pinning negative response. -->
+    <string name="droi_screen_pinning_negative">"不用了"</string>
+
+    <string name="droi_screen_pinning_description_physical_key">"这将会固定显示此屏幕，直到您取消固定为止。触摸并按住“返回”即可取消固定屏幕。"</string>
+
+    <!-- Recents: The empty recents string. [CHAR LIMIT=NONE] -->
+    <string name="droi_recents_empty_message">"您最近浏览过的屏幕会显示在此处"</string>
+    <!-- Recents: The info panel app info button string. [CHAR LIMIT=NONE] -->
+    <string name="droi_recents_app_info_button_label">"应用信息"</string>
+    <!-- Recents: The screen pinning button. [CHAR LIMIT=NONE] -->
+    <string name="droi_recents_lock_to_app_button_label">"固定屏幕"</string>
+    <!-- Recents: Temporary string for the button in the recents search bar. [CHAR LIMIT=NONE] -->
+    <string name="droi_recents_search_bar_label">"搜索"</string>
+    <!-- Recents: Launch error string. [CHAR LIMIT=NONE] -->
+    <string name="droi_recents_launch_error_message">"无法启动<xliff:g id="app" example="Calendar">%s</xliff:g>。"</string>
+    <!-- Recents: Dismiss all button. [CHAR LIMIT=NONE] -->
+    <string name="droi_recents_dismiss_all_message">"关闭所有应用"</string>
+
+    <string name="droi_recents_caption_resize">"选择新的任务布局"</string>
+
+
+    <!-- Content description to tell the user that this button will remove an application from recents -->
+    <string name="droi_accessibility_recents_item_will_be_dismissed">"移除<xliff:g id="app" example="Calendar">%s</xliff:g>。"</string>
+    <!-- Content description to tell the user an application has been removed from recents -->
+    <string name="droi_accessibility_recents_item_dismissed">"已删除<xliff:g id="APP">%s</xliff:g>"</string>
+    <!-- Content description to tell the user all applications has been removed from recents -->
+    <string name="droi_accessibility_recents_all_items_dismissed">"已关闭所有最近用过的应用。"</string>
+    <!-- Content description to tell the user an application has been launched from recents -->
+    <string name="droi_accessibility_recents_item_launched">"正在启动<xliff:g id="APP">%s</xliff:g>。"</string>
+    <!-- Content description of individual recents task. -->
+    <string name="droi_accessibility_recents_task_header">"<xliff:g id="APP">%1$s</xliff:g> <xliff:g id="ACTIVITY_LABEL">%2$s</xliff:g>"</string>
+
+    <string name="droi_cancel">取消</string>
+
+    <string name="droi_status_bar_no_recent_apps">没有运行任何应用</string>
+
+    <string name="droi_ram_available">可用</string>
+
+    <string name="quicksettings_notification_style_title">通知栏开关页面样式</string>
+    <string name="quicksettings_category_notification">通知栏</string>
+    <string name="quicksettings_category_statusbar">状态栏</string>
+    <string name="quicksettings_category_settings">参数设置</string>
+    <string name="quicksettings_preference_title">通知栏设置</string>
+    <string name="quicksettings_statusbar_page_concise">简洁</string>
+    <string name="quicksettings_statusbar_page_single">单页</string>
+    <string name="quicksettings_statusbar_page_bottom">上拉</string>
+    <string name="quicksettings_custom_notifications">通知管理</string>
+    <string name="quicksettings_custom_toggles">开关排序</string>
+    <string name="quicksettings_unexpand_statusbar_title">禁用锁屏通知栏</string>
+    <string name="quicksettings_unexpand_statusbar_summary">锁屏时不能下拉显示通知栏</string>
+    <string name="quicksettings_carrier_label">显示运营商</string>
+    <string name="quicksettings_network_speed">显示当前网速</string>
+    <string name="quicksettings_battery_percent">显示电量百分比</string> 
+    <string name="quicksettings_statusbar_data_usage_title">显示流量使用情况</string>
+    <string name="quicksettings_statusbar_data_usage_summary">下拉通知栏查看流量使用情况</string>
+    <string name="quicksettings_statusbar_battery_mode">省电模式</string>
+    <string name="quicksettings_statusbar_battery_mode_summary">下拉通知栏显示省电模式</string>
+
+    <string name="timer_second_tip_start">每间隔</string>
+    <string name="timer_second_tip_end">秒刷新一次</string>
+    <string name="quicksettings_refresh_interval">网速刷新频率</string>
+    <string name="quicksettings_refresh_interval_summary">每间隔<xliff:g id="NUMBER">%d</xliff:g>秒刷新一次</string>
+
+    <string name="custom_carrier_title">自定义运营商</string>
+    <string name="custom_carrier_summary">状态栏显示自定义运营商</string>
+    <string name="custom_carrier_hint">输入自定义字符</string>
+    <string name="custom_carrier_tip">自定义字符不能为空且不得大于5个字</string>
+
+    <!-- freeme,gouzhouping. 20160623, for freeme comman -->
+    <string name="qstile_order_title">编辑</string>
+    <string name="qs_tile_order_subscribe_line">长按拖动，按顺序显示下列9个开关</string>
+    <string name="qs_tile_order_brightness_switch">显示亮度控制开关</string>
+    <string name="qstile_order_reset_menu">重置</string>
+
+    <string name="qs_order_sort_tip">长按拖动，按顺序显示下列开关</string>
+
+    <string name="statusbar_data_use_exceed_new">今日: <xliff:g id="number">%s</xliff:g> 超出: <xliff:g id="number">%s</xliff:g></string>
+    <string name="statusbar_data_use_normal_new">今日: <xliff:g id="number">%s</xliff:g> 剩余: <xliff:g id="number">%s</xliff:g></string>
+     <string name="keyguard_notification_tips">解锁后查看通知详情</string>
+    <!-- Droi Override --><string name="data_usage">"流量情况"</string>
+
+    <!-- Modified begin by droi xupeng 20160428, make battery icon can be horizontal -->
+    <string name="charging_normal_tip">手机连接的充电设备功率较低，充电速度缓慢。</string>
+    <!-- Modified end -->
+    
+    <!-- freeme.biantao, 20160621. FreemeCommon. -->
+    <string-array name="volume_stream_titles">
+        <item>语音通话</item> <!-- STREAM_VOICE_CALL -->
+        <item>系统</item> <!-- STREAM_SYSTEM -->
+        <item>铃声</item> <!-- STREAM_RING -->
+        <item>媒体</item> <!-- STREAM_MUSIC -->
+        <item>闹钟</item> <!-- STREAM_ALARM -->
+        <item>通知</item> <!-- STREAM_NOTIFICATION -->
+        <item>蓝牙通话</item> <!-- STREAM_BLUETOOTH_SCO -->
+        <item></item> <!-- STREAM_SYSTEM_ENFORCED -->
+        <item></item> <!-- STREAM_DTMF -->
+        <item></item> <!-- STREAM_TTS -->
+    </string-array>
+
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <java-symbol name="default_lock_wallpaper" type="drawable" />
+
+    <java-symbol name="particle_halo" type="drawable" />
+    <java-symbol name="particle_heart" type="drawable" />
+    <java-symbol name="particle_heartbeat" type="drawable" />
+    <java-symbol name="particle_star" type="drawable" />
+    <java-symbol name="particle_hexagram" type="drawable" />
+
+    <java-symbol name="lunar_leap" type="string" />
+    <java-symbol name="lunar_tenth_day" type="string" />
+    <java-symbol name="lunar_twentieth_day" type="string" />
+    <java-symbol name="lunar_thirtieth_day" type="string" />
+    <java-symbol name="lunar_year" type="string" />
+    <java-symbol name="lunar_month" type="string" />
+    <java-symbol name="lunar_day" type="string" />
+    <java-symbol name="lunar_date_formatter" type="string" />
+    <java-symbol name="lunar_fest_shengdan" type="string" />
+
+    <java-symbol name="tyd_widget_date_yeartxt" type="string" />
+    <java-symbol name="tyd_widget_date_monthtxt" type="string" />
+    <java-symbol name="tyd_widget_date_daytxt" type="string" />
+    <java-symbol name="tyd_widget_date_default_format" type="string" />
+    <java-symbol name="tyd_widget_week_default_format" type="string" />
+    <java-symbol name="tyd_widget_week_eng" type="array" />
+    <java-symbol name="tyd_widget_week_standard" type="array" />
+    <java-symbol name="tyd_widget_week_cn" type="array" />
+    <java-symbol name="tyd_widget_date_eng" type="array" />
+
+    <java-symbol name="month_number_array" type="array" />
+    <java-symbol name="tens_prefix_array" type="array" />
+    <java-symbol name="sc_solar_terms" type="array" />
+    <java-symbol name="lunar_info" type="array" />
+    <java-symbol name="solar_term_days" type="array" />
+    <java-symbol name="lunar_animal" type="array" />
+    <java-symbol name="lunar_gan" type="array" />
+    <java-symbol name="lunar_zhi" type="array" />
+
+    <java-symbol name="lunar_fest_chunjie" type="string" />
+    <java-symbol name="lunar_fest_duanwu" type="string" />
+    <java-symbol name="lunar_fest_zhongqiu" type="string" />
+    <java-symbol name="lunar_fest_yuandan" type="string" />
+    <java-symbol name="lunar_fest_laodong" type="string" />
+    <java-symbol name="lunar_fest_guoqing" type="string" />
+    <java-symbol name="lunar_fest_yuanxiao" type="string" />
+    <java-symbol name="lunar_fest_qixi" type="string" />
+    <java-symbol name="lunar_fest_chongyang" type="string" />
+    <java-symbol name="lunar_fest_qingnian" type="string" />
+    <java-symbol name="lunar_fest_qingren" type="string" />
+    <java-symbol name="lunar_fest_funv" type="string" />
+    <java-symbol name="lunar_fest_zhishu" type="string" />
+    <java-symbol name="lunar_fest_yuren" type="string" />
+    <java-symbol name="lunar_fest_ertong" type="string" />
+    <java-symbol name="lunar_fest_jiandang" type="string" />
+    <java-symbol name="lunar_fest_jianjun" type="string" />
+    <java-symbol name="lunar_fest_jiaoshi" type="string" />
+    <java-symbol name="lunar_fest_shengdan" type="string" />
+    <!--@}-->
+
+</resources>

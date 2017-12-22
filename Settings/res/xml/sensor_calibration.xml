@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/sensor_calibration_title">
+    <!-- Added by TYD Biantao, 2011/11/16. For adding G-sensor calibration. -->
+    <Preference
+         android:title="@string/g_sensor_title" 
+         android:key="g_sensor" 
+         android:summary="@string/g_sensor_summary">
+         <intent android:action="android.intent.action.MAIN"
+                 android:targetPackage="com.android.settings"
+                 android:targetClass="com.android.settings.GSensorSettings" />
+    </Preference>
+    
+    <!--add by tyd liuyong 20130826 for psensor calibration-->
+    <Preference
+        android:key="psensor"
+        android:title="@string/psensor_title" />
+</PreferenceScreen>

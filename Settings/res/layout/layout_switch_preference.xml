@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/layout_switch_preference"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:gravity="center_vertical"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:background="@drawable/freeme_swithbar_bg" >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dip"
+        android:layout_marginBottom="6dip"
+        android:layout_weight="1">
+
+        <TextView android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textAppearance="@android:style/TextAppearance.Material.Title"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:layout_centerVertical="true" />
+
+        <TextView android:id="@+id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_alignStart="@id/title"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="?android:attr/textColorSecondary"
+            android:maxLines="4" 
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+    <!-- Preference should place its actual preference widget here. -->
+    <LinearLayout android:id="@+id/widget_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+        <Switch 
+            android:id="@+id/my_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/motion_on"
+            android:textOff="@string/motion_off"/>
+    </LinearLayout>
+
+</LinearLayout>
+

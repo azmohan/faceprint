@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Added by tyd Greg 2013-10-24,for control smart wake -->
+        <Preference
+            android:key="key_smart_wake_settings"
+            android:title="@string/smart_wake_category" >
+            <intent android:action="com.freeme.intent.action.smartwakesettings.settings" />
+        </Preference>
+        <!-- tyd -->
+        <!-- Add by tyd yuanchengye 20140815, for three pointer swipe action -->
+        <SwitchPreference
+            android:key="three_pointer_take_screen_shot"
+            android:title="@string/three_pointer_take_screen_shot_title"
+            android:summary="@string/three_pointer_take_screen_shot_summary" />
+        <!-- CheckBoxPreference
+            android:key="three_pointer_start_hotnot"
+            android:title="@string/three_pointer_start_hotnot_title"
+            android:summary="@string/three_pointer_start_hotnot_summary" /> -->
+        <!-- tyd -->
+
+        <!-- freeme.luyangjie, 20170612, three pointer in camera -->
+        <SwitchPreference
+            android:key="three_pointer_into_camera"
+            android:title="@string/three_pointer_in_camera_title"
+            android:summary="@string/three_pointer_in_camera_summary" />
+
+        <!-- freeme.luyangjie, 20170612, Double click home key lock the screen -->
+        <SwitchPreference
+            android:key="double_click_home_lock_screen"
+            android:title="@string/double_homekey_lock_title"
+            android:summary="@string/double_homekey_lock_summary" />
+</PreferenceScreen>

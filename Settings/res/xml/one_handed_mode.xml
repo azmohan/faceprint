@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!--tyd.zhanglingzeng 20140819. tp  mini screen mode. -->
+        <SwitchPreference
+            android:key="tp_mini_screen_key"
+            android:title="@string/tp_mini_screen_title"
+            android:summary="@string/tp_mini_screen_summary" />
+        <!--tyd.zhanglingzeng 20140827. tp  mini screen tigger. -->
+        <SwitchPreference
+            android:key="tp_mini_screen_trigger_key"
+            android:title="@string/tp_mini_screen_trigger_title"
+            android:summary="@string/tp_mini_screen_trigger_summary" />
+        <!-- tyd -->
+
+</PreferenceScreen>

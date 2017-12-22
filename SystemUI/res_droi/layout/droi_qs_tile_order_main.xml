@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@android:color/transparent" >
+
+	<LinearLayout
+		android:id="@+id/subscribe_main_layout"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:background="@drawable/notification_header_bg"
+		android:paddingTop="0.0dip"
+		android:paddingBottom="14.0dip" >
+
+        <TextView
+            style="subscribe_my_tip_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="11dip"
+            android:layout_marginRight="11dip"
+            android:textSize="12sp"
+            android:textColor="#ff7e7e7e"
+            android:text="@string/qs_order_sort_tip"  />
+
+        <View
+            android:id="@+id/line_1"
+            android:visibility="invisible"
+            style="@style/qs_tile_order_seperate_line" />
+
+		<com.droi.systemui.qs.order.views.DragGrid
+			android:id="@+id/userGridView"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:listSelector="@android:color/transparent"
+			android:numColumns="5"
+			android:scrollbars="vertical"
+			android:stretchMode="columnWidth"
+			android:verticalSpacing="8.0px"
+			android:horizontalSpacing="1px"
+			android:layout_marginLeft="12dip"
+			android:layout_marginRight="12dip"
+			android:background="@android:color/transparent"/>
+
+		<View
+		    android:id="@+id/line_2"
+    		style="@style/qs_tile_order_seperate_line" />
+
+  		<RelativeLayout
+		    android:id="@+id/brigheness_toggle"
+        	android:layout_width="fill_parent"
+     		android:layout_height="wrap_content"
+         	android:layout_marginLeft="14dip"
+         	android:layout_marginRight="14dip" >
+
+			<TextView
+            	style="subscribe_my_tip_text"
+          		android:layout_width="wrap_content"
+               	android:layout_height="wrap_content"
+            	android:layout_alignParentLeft="true"
+            	android:text="@string/qs_tile_order_brightness_switch"  />
+
+           	<Switch
+             	android:id="@+id/brightness_category_switch"
+             	android:layout_width="wrap_content"
+              	android:layout_height="wrap_content"
+              	android:layout_alignParentRight="true"
+              	android:textOn="On"
+              	android:textOff="Off"
+              	android:checked="true" />
+      	</RelativeLayout>
+   	</LinearLayout>
+</RelativeLayout>

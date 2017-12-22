@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="fingerprint_func">fungsi</string>
+    <string name="camera_capture_enable">Kawalan Kamera</string>
+    <string name="nv_camera_cpture_des">Sentuh untuk mengambil gambar</string>
+    <string name="alarm_control_enable">"Penggera"</string>
+    <string name="nv_alarm_control_des">Sentuh untuk menutup penggera</string>
+    <string name="dial_enable">Dail cap jari</string>
+    <string name="nv_dial_control_des">Sentuhan lama untuk dail dalam pad dail</string>
+    <string name="home_scroll_enable">Slaid Skrin Utama</string>
+    <string name="nv_home_control_des">Sentuh untuk skrol laman utama</string>
+    <string name="video_operate_enable">Kawalan Video</string>
+    <string name="nv_video_control_des">Sentuh untuk mengawal pemain video</string>
+    <string name="music_operate_enable">Kawalan Muzik</string>
+    <string name="nv_music_control_des">Sentuk untuk mengawal pemain muzik</string>
+    <string name="nv_get_it">Dapatkannya</string>
+</resources>

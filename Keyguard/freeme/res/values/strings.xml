@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string-array name="tyd_widget_week_eng">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string-array name="tyd_widget_week_standard">
+        <item>星期天</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+    </string-array>
+
+    <string-array name="tyd_widget_week_cn">
+        <item>周日</item>
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+    </string-array>
+
+    <string-array name="tyd_widget_date_eng">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string name="tyd_widget_date_yeartxt" translatable="false">年</string>
+    <string name="tyd_widget_date_monthtxt" translatable="false">月</string>
+    <string name="tyd_widget_date_daytxt" translatable="false">日</string>
+    <string name="tyd_widget_date_default_format">num</string>
+    <string name="tyd_widget_week_default_format">cn</string>
+
+    <string name="lunar_fest_chunjie" translatable="false">春节</string>
+    <string name="lunar_fest_duanwu" translatable="false">端午节</string>
+    <string name="lunar_fest_zhongqiu" translatable="false">中秋节</string>
+    <string name="lunar_fest_yuandan" translatable="false">元旦</string>
+    <string name="lunar_fest_laodong" translatable="false">劳动节</string>
+    <string name="lunar_fest_guoqing" translatable="false">国庆节</string>
+    <string name="lunar_fest_yuanxiao" translatable="false">元宵节</string>
+    <string name="lunar_fest_qixi" translatable="false">七夕</string>
+    <string name="lunar_fest_chongyang" translatable="false">重阳节</string>
+    <string name="lunar_fest_qingnian" translatable="false">青年节</string>
+    <string name="lunar_fest_qingren" translatable="false">情人节</string>
+    <string name="lunar_fest_funv" translatable="false">妇女节</string>
+    <string name="lunar_fest_zhishu" translatable="false">植树节</string>
+    <string name="lunar_fest_yuren" translatable="false">愚人节</string>
+    <string name="lunar_fest_ertong" translatable="false">儿童节</string>
+    <string name="lunar_fest_jiandang" translatable="false">建党节</string>
+    <string name="lunar_fest_jianjun" translatable="false">建军节</string>
+    <string name="lunar_fest_jiaoshi" translatable="false">教师节</string>
+    <string name="lunar_fest_shengdan" translatable="false">圣诞节</string>
+
+    <string name="lunar_date_formatter" translatable="false">yyyy年MM月dd日</string>
+    <string name="lunar_leap" translatable="false">闰</string>
+    <string name="lunar_tenth_day" translatable="false">初十</string>
+    <string name="lunar_twentieth_day" tanslatable="false">二十</string>
+    <string name="lunar_thirtieth_day" translatable="false">三十</string>
+    <string name="lunar_year" translatable="false">年</string>
+    <string name="lunar_month" translatable="false">月</string>
+    <string name="lunar_day" translatable="false">日</string>
+
+</resources>
+
+

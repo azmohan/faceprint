@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="fingerprint_func">funkcie</string>
+    <string name="camera_capture_enable">Snímať</string>
+    <string name="nv_camera_cpture_des">Na získanie záberu je potrebný dotyk</string>
+    <string name="alarm_control_enable">"Budík"</string>
+    <string name="nv_alarm_control_des">Dotykom ukončite signalizáciu</string>
+    <string name="dial_enable">Voľba čísla pomocou odtlačku prstov</string>
+    <string name="nv_dial_control_des">Na vytočenie čísla je potrebné prst pridržať dlhšie</string>
+    <string name="home_scroll_enable">Home Scroll</string>
+    <string name="nv_home_control_des">Dotykom prejdite do domovských stránok</string>
+    <string name="video_operate_enable">Contral- video</string>
+    <string name="nv_video_control_des">Dotykom ovládať prehrávanie videa</string>
+    <string name="music_operate_enable">Contral- hudba</string>
+    <string name="nv_music_control_des">Dotykom ovládať prehrávanie hudby</string>
+    <string name="nv_get_it">Získajte ho</string>
+</resources>

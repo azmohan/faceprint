@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2007 The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string-array name="clean_task_ignore_apps">
+        <item>com.sohu.inputmethod.sogou</item>
+        <item>com.zhuoyi.security.lite</item>
+        <item>com.zhuoyi.security.service</item>
+        <item>com.mediatek.GoogleOta</item>
+        <item>com.zhuoyi.market</item>
+        <item>com.mediatek.mtklogger</item>
+        <item>com.android.providers.media</item>
+        <item>com.android.providers.downloads</item>
+        <item>com.android.bluetooth</item>
+        <item>com.freeme.floattask</item>
+        <item>com.freeme.widget.newspage</item>
+        <item>com.freeme.visitormode</item>
+        <item>com.freeme.deskclock</item>
+        <item>com.freeme.lockscreen.mood</item>
+        <item>com.android.providers.contacts</item>
+        <item>android.process.acore</item>
+        <!-- @{freeme.zhaozehong, 16-12-1. for chubao voip call -->
+        <item>com.android.providers.applications</item>
+        <item>com.android.providers.userdictionary</item>
+        <!-- @} -->
+        <item>com.freeme.luckymoney</item>
+        <item>com.freeme.freemelite.odm</item>
+        <item>com.iflytek.inputmethod</item>
+    </string-array>
+    
+</resources>

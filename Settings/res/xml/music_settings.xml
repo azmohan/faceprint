@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="smart_wakeup_settings_parent" >
+
+    <Preference 
+        android:key="start_front_music_setting"
+        android:title="@string/prev_music" />
+    <Preference 
+        android:key="start_or_stop_music_setting"
+        android:title="@string/start_or_pause_music" />
+    <Preference 
+        android:key="start_next_music_setting"
+        android:title="@string/next_music" /> 
+
+</PreferenceScreen>

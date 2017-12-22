@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/accessibility_settings_ext_title">
+          
+        <!--add by tyd cch 20131029 for pocket mode -->
+        <SwitchPreference
+            android:key="pocket_mode_ring_key"
+            android:title="@string/pocket_ring_mode_text"
+            android:defaultValue="false"
+            android:summary="@string/pocket_ring_mode_info"/>
+          
+        <!--tyd.biantao 20131105. tp glove mode. -->
+        <SwitchPreference
+            android:key="tp_glove_mode_key"
+            android:title="@string/tp_glove_mode_title"
+            android:summary="@string/tp_glove_mode_summary" />
+        
+        <!--add by huangyiquan 20140317,for touch-protect mode -->
+        <SwitchPreference
+            android:key="screen_on_proximity_sensor"
+            android:title="@string/screen_on_proximity_title"
+            android:summary="@string/screen_on_proximity_summary" />
+        
+        <!-- Added by Linguanrong for supershot, 2015-6-15 -->
+        <SwitchPreference
+            android:key="supershot_key"
+            android:title="@string/supershot_title"
+            android:summary="@string/supershot_summary"/>
+        <!-- Tyd -->
+
+        <!-- freeme.huzhongtao 20161208 for suspension -->
+        <SwitchPreference
+            android:key="suspension_key"
+            android:title="@string/suspension_title"
+            android:summary="@string/suspension_summary"/>
+
+        <!-- Added by linguanrong for navigationbar show/hide 2015-07-07 -->
+        <Preference
+            android:key="navigationbar_preference"
+            android:title="@string/navigationbar_settings"
+            android:fragment="com.android.settings.accessibility.NavigationBarPreference" />
+        <!-- Tyd -->
+
+        <!-- Added by linguanrong for TydFloatTask 20130828-->
+        <Preference
+            android:key="toggle_floattask_preference"
+            android:title="@string/floattask_settings"
+            android:fragment="com.android.settings.accessibility.FloatTaskPreference"/> 
+            
+        <Preference
+            android:key="smart_wakeup_preference"
+            android:title="@string/smart_wakeup_settings"
+            android:fragment="com.android.settings.accessibility.SmartWakeDoubleTapSettings">
+        </Preference> 
+        <!--tyd  -->
+
+        <!-- Added by tyd Greg 2013-10-24,for control smart wake -->
+        <Preference
+            android:key="key_gestures_operate"
+            android:title="@string/gestures_operate" 
+            android:fragment="com.android.settings.accessibility.GestureOperate">
+        </Preference>
+        <!-- tyd -->
+
+        <!-- Added by fanwuyang 2017/08/02 ,for Screenshot Guide-->
+        <Preference
+            android:key="key_screenshot_guide"
+            android:layout="@layout/preference_textview" >
+        </Preference>
+        <!-- tyd -->
+
+        <Preference
+            android:key="key_intelligent_operate"
+            android:title="@string/intelligent_operate" 
+            android:fragment="com.android.settings.accessibility.IntelligentOperateSettings">
+        </Preference>
+
+        <!-- tyd.biantao 20131024. non-touch operation. -->
+        <Preference
+            android:key="key_non_touch_settings"
+            android:title="@string/non_touch_opr_category">
+            <intent android:action="com.freeme.intent.action.motionrecognition.settings" />
+        </Preference>
+
+        <!-- Droi.zhangweinan, 20161201. add tts option --> 
+        <SwitchPreference
+            android:key="tts_key"
+            android:title="@string/tts_mode_text"
+            android:defaultValue="false"
+            android:summary="@string/tts_mode_summary" />
+
+</PreferenceScreen>

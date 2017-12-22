@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="fingerprint_func">कार्य</string>
+    <string name="camera_capture_enable">कैमरा नियंत्रण</string>
+    <string name="nv_camera_cpture_des">तस्वीरें लेने के लिए छुएँ</string>
+    <string name="alarm_control_enable">"अलार्म"</string>
+    <string name="nv_alarm_control_des">अलार्म को बंद करने के लिए छुएँ</string>
+    <string name="dial_enable">फिंगरप्रिंट डायल</string>
+    <string name="nv_dial_control_des">डायल पैड में डायल करने के लिए काफी समय तक छुएँ</string>
+    <string name="home_scroll_enable">डेस्कटॉप स्वाइप</string>
+    <string name="nv_home_control_des">मुख्य पृष्ठ पर स्क्रोल करने के लिए छुएँ</string>
+    <string name="video_operate_enable">वीडियो नियंत्रण</string>
+    <string name="nv_video_control_des">वीडियो नियंत्रण के लिए छुएँ</string>
+    <string name="music_operate_enable">संगीत नियंत्रण</string>
+    <string name="nv_music_control_des">संगीत चलाने के नियंत्रण के लिए छुएँ</string>
+    <string name="nv_get_it">यह पाएँ</string>
+</resources>

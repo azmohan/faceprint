@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" >
+    <SwitchPreference
+        android:key="keep_screen_enabled"
+        android:summary="@string/smart_keep_screen_enable_setting_tips"
+        android:title="@string/smart_keep_screen_enable_setting" />
+
+    <SwitchPreference
+        android:key="double_tap_screen_wake"
+        android:summary="@string/smart_wakeup_setting_tips"
+        android:title="@string/smart_wakeup_setting" />
+
+    <SwitchPreference
+        android:key="double_tap_home_wake"
+        android:summary="@string/double_tap_home_wake_summary"
+        android:title="@string/double_tap_home_wake_title" />
+
+    <SwitchPreference
+        android:key="double_tap_home_off"
+        android:summary="@string/double_tap_home_off_summary"
+        android:title="@string/double_tap_home_off_title" />
+</PreferenceScreen>

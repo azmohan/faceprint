@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>  
+    <dimen name="cpu_usage_parent">140dip</dimen>
+    
+    <!-- Added by tyd YuanChengye 20140608 for, sliding menu parameter -->
+    <dimen name="slidingmenu_behind_offset">130dp</dimen>
+    <dimen name="header_item_height">46.5dp</dimen>
+    <!-- tyd -->
+    
+    <!-- Added by tyd YuanChengye 20150107 for, freeme wifi -->
+    <dimen name="freeme_wifi_top_content_height">320dip</dimen>
+    <dimen name="freeme_wifi_tips_margrin_top">15dip</dimen>
+    <dimen name="freeme_wifi_checkbox_padding_top">25dip</dimen>
+    <!-- tyd -->
+    <!-- @{ freeme.menglingqiang，20160923. Settings interface UI adjustment for view mode. -->
+    <dimen name="dashboard_tile_new_start">18dp</dimen>
+    <!-- @} -->
+    <!-- @{ freeme.menglingqiang，20160928. Settings interface UI adjustment. -->
+    <dimen name="freeme_guide_alert_width">300dp</dimen>
+    <dimen name="freeme_indicator_width">50dp</dimen>
+    <!-- @} -->
+    <!-- freeme.chenhanyuan. 2016-09-28. picture Centered -->
+    <dimen name="guide_pager_right">20dip</dimen>
+    <dimen name="closebtn_right">25dip</dimen>
+    <dimen name="indicator_width">50dip</dimen>
+    <dimen name="indicator_right">30dip</dimen>
+</resources>

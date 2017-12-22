@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<!-- tyd.zhanglingzeng 20140819. tp  mini screen mode begin -->
+    <string name="tp_mini_screen_title">小屏模式</string>
+    <string name="tp_mini_screen_summary">开启后，可以单手操作迷你屏幕</string>
+	<string name="tp_mini_screen_trigger_title">触屏操作打开小屏模式</string>
+	<string name="tp_mini_screen_trigger_summary">开启后，从屏幕右侧向内再向外滑动可以打开小屏模式；打开小屏模式后，在小屏窗口内从右侧向内再向外滑动可以关闭小屏模式</string>
+	<string name="tp_close_mini_screen">请首先关闭小屏模式</string>
+	<string name="tp_mini_screen_close_magic_flinger">请首先关闭魔法手指</string>
+	<!-- tyd.zhanglingzeng 20140819. tp  mini screen mode end -->
+	   <!-- Added by tyd mingjun 20150618 for, freeme wifi -->
+    <string name="freeme_wifi_title">免费WiFi</string>
+    <string name="freeme_wifi_online_time">免费上网 </string>
+    <string name="freeme_wifi_low_speed_reasons">以下原因导致网速比较慢</string>
+    <string name="freeme_wifi_low_speed_reason_1">多人同时连接导致网速变慢</string>
+    <string name="freeme_wifi_low_speed_reason_2">距离热点较远信号弱</string>
+    <string name="freeme_wifi_low_speed_reason_3">正在移动中</string>
+    <string name="freeme_wifi_introductions">免费WiFi freeme os为你提供</string>
+    <string name="freeme_wifi_freemeintroductions">免费WiFi freeme os为你提供</string>
+    <string name="freeme_wifi_introduction_1">无需密码</string>
+    <string name="freeme_wifi_introduction_2">一键连接</string>
+    <string name="freeme_wifi_introduction_3">覆盖咖啡厅、餐饮、机场、火车站等2万多处场所</string>
+     <string name="freeme_wifi_connect">免费连接WiFi</string>
+    <string name="freeme_wifi_disconnect">断开连接</string>
+    <string name="freeme_wifi_settings">freewifi设置</string>
+    <string name="freeme_wifi_settings_auto_share">自动分享已连接的WiFi热点</string>
+    <string name="freeme_wifi_settings_auto_notify">附近有可用免费WiFi时提醒</string>
+    <string name="freeme_wifi_show_connect">正在为您连接...</string>
+    <string name="freeme_wifi_show_disconnect">正在为您断开...</string>
+    <string name="freeme_wifi_show_wifi_disable">WiFi已关闭</string>
+    <string name="freeme_wifi_show_no_freewifi">没有可用的免费WiFi</string>
+    <string name="freeme_wifi_menu_connect">手动输入连接</string>
+    <string name="freeme_wifi_summary">欢迎使用免费WiFi, 由酷比为您提供免费、安全的网络环境</string>
+    <!-- end -->
+    
+    <!--Added by Linguanrong for FloatTask 20130828-->
+    <string name="floattask_settings">悬浮多任务</string>
+    <string name="floattask_summary">开启或关闭悬浮多任务</string>
+    <string name="quick_floattask_settings">快速开关</string>
+    <string name="quick_floattask_summary">可长按返回键快速开启和关闭</string>
+    <!--Linguanrong-->
+    
+    <!--add by tyd cch 20131029 for pocket mode  -->
+    <string name="pocket_ring_mode_text">口袋模式</string>
+    <string name="pocket_ring_mode_info">当设备位于口袋中时铃声音量增加</string>
+    
+    <!-- Added by huangyiquan 20140317 for touch-protect mode -->
+    <string name="screen_on_proximity_title">防误触模式</string>
+    <string name="screen_on_proximity_summary">利用距离传感器，防止手机在口袋中由于挤压或织物滑动引起的误操作</string>
+    <!-- end by huangyiquan -->
+    
+    <!-- Added by tyd liuchao for smart wakeup -->
+    <string name="smart_wakeup_settings">智能亮/息屏</string>
+    <!-- tyd -->
+    
+    <!-- Add  by tyd liuchao on 2015-04-13, for new stytle -->
+    <string name="system_settings_title">系统</string>
+    <string name="date_time_settings_title">日期与时间</string>
+    <string name="gestures_operate">手势操作</string>
+    <string name="intelligent_operate">智能操作</string>
+    <string name="bits">64 位</string>
+    <!-- tyd -->
+    
+    <!-- Add by tyd yuanchengye 20140815, for three pointer swipe action -->
+    <string name="three_pointer_take_screen_shot_title">三指截屏</string>
+    <string name="three_pointer_take_screen_shot_summary">在任意界面三指下滑截屏</string>
+    <string name="three_pointer_start_hotnot_title">三指打开酷传</string>
+    <string name="three_pointer_start_hotnot_summary">在任意界面三指上滑打开酷传</string>
+    <!-- end -->
+    
+    <!-- Added by tyd Linguanrong 20130816 for adjust settings menu-->
+    <string name="smart_somatosensory">智能体感</string>
+    <string name="reverse_silent">翻转静音</string>
+    <string name="reverse_silent_info">翻转电话使来电和闹钟静音</string>
+    <!-- tyd -->
+    
+    <!-- Added by john for sim kit --> 
+    <string name="other_application_title">应用</string>
+    <string name="stk_selection_title">SIM卡应用</string>
+    <string name="holiday_mode_title">勿扰模式</string>
+    <string name="smart_dial_title">智能拨打</string>
+    <string name="smart_dial_title_summary">选中号码，快速将手机靠近耳朵时拨出电话</string>
+    <string name="smart_answer_title">智能接听</string>
+    <string name="smart_answer_title_summary">在来电状态下，快速将手机靠近耳朵进行接听电话</string>
+    <string name="have_no_stk">您的手机未安装应用程序。</string>
+    <!-- end  -->
+    
+    <!-- Added by sxp 20140716 for shake open app -->
+    <string name="shake_open_app">摇一摇打开应用</string>
+    <string name="shake_open_app_settings">设定应用</string>
+    <string name="select_shake_open">选择</string>
+    <string name="shake_default_value">1</string>    
+    <!-- end -->
+    
+    <!-- tyd.zhanglingzeng. for smart wakeup . -->
+    <string name="smart_keep_screen_enable_setting">智能保持亮屏</string>
+    <string name="smart_keep_screen_enable_setting_tips">检测到您正看着屏幕，屏幕将继续为您亮起</string>
+    <string name="smart_wakeup_setting">双击屏幕亮屏</string>
+    <string name="smart_wakeup_setting_tips">双击屏幕点亮屏幕</string>
+    <string name="double_tap_home_wake_title">双击HOME键亮屏</string>
+    <string name="double_tap_home_wake_summary">双击HOME键点亮屏幕</string>
+    <string name="double_tap_home_off_title">双击HOME键锁屏</string>
+    <string name="double_tap_home_off_summary">在任意界面双击HOME键快速锁屏</string>
+    <!-- tyd -->
+    
+    <!-- Added by tyd Greg 2013-10-24,for control smart wake -->
+     <string name="smart_wake_category">智能唤醒</string>
+     
+     <!-- Added by tyd Gre 2014-03-12 -->
+    <!-- for magic track -->
+    <string name="pref_finger_particle_effects_title">魔法手指</string>
+    <string name="settings_now_particle_effects">当前特效：</string>
+    <string name="settings_particle_effects_hint">温馨提示：开启后会多费点电</string>
+    <string name="particle_effect_name_none">无</string>
+    <string name="particle_effect_name_random">随机</string>
+    <string name="particle_effect_name_heart">爱心</string>
+    <string name="particle_effect_name_stars">星星</string>
+    <string name="particle_effect_name_heartbeat">心动</string>
+    <string name="particle_effect_name_halo">光圈</string>
+    
+    <!-- added by tyd Fuchenming 20130618 -->
+    <string name="festival_wallpaper">节日壁纸</string>
+
+
+	<!-- tyd.zhanglingzeng 20140819. tp  mini screen mode begin -->
+    <string name="tp_mini_screen_title">小屏模式</string>
+    <string name="tp_mini_screen_summary">开启后，可以单手操作迷你屏幕</string>
+	<string name="tp_mini_screen_trigger_title">触屏操作打开小屏模式</string>
+	<string name="tp_mini_screen_trigger_summary">开启后，从屏幕右侧向内再向外滑动可以打开小屏模式；打开小屏模式后，在小屏窗口内从右侧向内再向外滑动可以关闭小屏模式</string>
+	<string name="tp_close_mini_screen">请首先关闭小屏模式</string>
+	<string name="tp_mini_screen_close_magic_flinger">请首先关闭魔法手指</string>
+	<!-- tyd.zhanglingzeng 20140819. tp  mini screen mode end -->
+	   <!-- Added by tyd mingjun 20150618 for, freeme wifi -->
+    <string name="freeme_wifi_title">免费WiFi</string>
+    <string name="freeme_wifi_online_time">免费上网 </string>
+    <string name="freeme_wifi_low_speed_reasons">以下原因导致网速比较慢</string>
+    <string name="freeme_wifi_low_speed_reason_1">多人同时连接导致网速变慢</string>
+    <string name="freeme_wifi_low_speed_reason_2">距离热点较远信号弱</string>
+    <string name="freeme_wifi_low_speed_reason_3">正在移动中</string>
+    <string name="freeme_wifi_introductions">免费WiFi freeme os为你提供</string>
+    <string name="freeme_wifi_freemeintroductions">免费WiFi freeme os为你提供</string>
+    <string name="freeme_wifi_introduction_1">无需密码</string>
+    <string name="freeme_wifi_introduction_2">一键连接</string>
+    <string name="freeme_wifi_introduction_3">覆盖咖啡厅、餐饮、机场、火车站等2万多处场所</string>
+     <string name="freeme_wifi_connect">免费连接WiFi</string>
+    <string name="freeme_wifi_disconnect">断开连接</string>
+    <string name="freeme_wifi_settings">freewifi设置</string>
+    <string name="freeme_wifi_settings_auto_share">自动分享已连接的WiFi热点</string>
+    <string name="freeme_wifi_settings_auto_notify">附近有可用免费WiFi时提醒</string>
+    <string name="freeme_wifi_show_connect">正在为您连接...</string>
+    <string name="freeme_wifi_show_disconnect">正在为您断开...</string>
+    <string name="freeme_wifi_show_wifi_disable">WiFi已关闭</string>
+    <string name="freeme_wifi_show_no_freewifi">没有可用的免费WiFi</string>
+    <string name="freeme_wifi_menu_connect">手动输入连接</string>
+    <string name="freeme_wifi_summary">欢迎使用免费WiFi, 由酷比为您提供免费、安全的网络环境</string>
+    <!-- end -->
+    
+    <string name="accessibility_settings_ext_title">智能辅助</string>
+    
+    <!--Added by Linguanrong for FloatTask 20130828-->
+    <string name="floattask_settings">悬浮多任务</string>
+    <string name="floattask_summary">开启或关闭悬浮多任务</string>
+    <string name="quick_floattask_settings">快速开关</string>
+    <string name="quick_floattask_summary">可长按返回键快速开启和关闭</string>
+    <!--Linguanrong-->
+    
+    <!--add by tyd cch 20131029 for pocket mode  -->
+    <string name="pocket_ring_mode_text">口袋模式</string>
+    <string name="pocket_ring_mode_info">当设备位于口袋中时铃声音量增加</string>
+    
+    <!-- Added by huangyiquan 20140317 for touch-protect mode -->
+    <string name="screen_on_proximity_title">防误触模式</string>
+    <string name="screen_on_proximity_summary">利用距离传感器，防止手机在口袋中由于挤压或织物滑动引起的误操作</string>
+    <!-- end by huangyiquan -->
+    
+    <!-- tyd.biantao, 20131025. for non-touch operation -->
+    <string name="non_touch_opr_category">隔空操作</string>
+
+    <!--Add by tyd xiaocui 0723 for the system volume and media volume-->
+    <string name="volume_system_description_text">系统</string>
+    <!---->
+
+    <!-- Add for Custom Ringtone by xiaocui on 2013-08-30 Start. -->
+    <string name="zzzz_ringtone_default_title">默认铃声</string>
+    <string name="zzzz_ringtone_default_summary">选择默认铃声</string>
+    <string name="zzzz_ringtone_custom_title">自定义铃声</string>
+    <string name="zzzz_ringtone_custom_summary">选择自定义铃声</string>
+    <string name="zzzz_sdcard_missing_title">无 SD 卡</string>
+    <string name="zzzz_no_audio_file">无音频文件</string>
+    <!-- Add for Custom Ringtone by Yetta on 2012-02-16 End. -->
+    
+    <!-- Add for Message Ringtone by tyd xiaocui 2012-07-10 --> 
+    <string name="zzzz_sound_category_message_title">信息设置</string>
+    <string name="zzzz_message_sound_title">信息铃声</string>
+    <string name="zzzz_message_sound_summary">设置默认的信息铃声</string>
+    <!-- Add for Message Ringtone by tyd xiaocui 2012-07-10  End --> 
+     
+     <!-- Added by liuchao  for koobee account, 20150630 -->
+    <string name="login_account_koobee">酷比帐号</string>
+    <!-- end -->
+    
+    <!-- Added by Jack 20130521 for, flash memory info -->
+    <string name="flash_system">Android</string>
+    <string name="flash_userdata">手机内存（应用程序和数据）</string>
+    <string name="flash_internal_sd">手机存储（内置存储卡）</string>
+    <string name="flash_shard_sdcard">手机存储</string>
+    <string name="flash_memory_detail">详细信息</string>
+    <string name="flash_memory_detail_summary">选择默认存储器和查看存储器使用情况</string>
+    <string name="cpu_info">处理器</string>
+    <string name="flash_info">机身存储</string>
+    <string name="cpu_cores_freq" formatted="false">%s%.2fGHz</string>
+    <string name="cpu_cores_1"></string>
+    <string name="cpu_cores_2">双核</string>
+    <string name="cpu_cores_4">四核</string>
+    <string name="cpu_cores_6">六核</string>
+    <string name="cpu_cores_8">八核</string>
+    <string name="ram_info">运行内存</string>
+    <!-- tyd -->
+
+    <!-- freeme.biantao, 20160612. Adb chooser. -->
+    <string name="adb_not_askagain">"不再弹出"</string>
+
+    <!-- Add by tyd Jack 20150114, for default_app_preferences -->
+    <string name="default_app_preferences">默认应用设置</string>
+    <!-- end -->
+    
+    <!-- Added by liuchao, 20150707 -->
+    <string name="storage_battery_settings">存储和电量</string>
+    <string name="lock_pwd_title">锁屏和密码</string>
+    <!-- end --> 
+    
+    <!-- Added by Jack 20121224 for, switch app aee/anr dialog -->
+    <string name="show_aee_dialog">显示“应用程序出错”</string>
+    <string name="show_aee_dialog_summary">显示“应用程序出错”对话框信息</string>
+    <string name="show_anr_dialog">显示“应用无响应”(全局)</string>
+    <string name="show_anr_dialog_summary">显示“应用无响应”对话框信息</string>
+    <!-- tyd -->
+    
+    <!-- Added by Jack 20150518 for, extreme low memory killer support -->
+    <string name="enable_extreme_lk">激进的内存回收</string>
+    <string name="enable_extreme_lk_summary">开启此选项系统将采用激进的内存回收机制以优化内存占用，极少数程序可能运行不稳定</string>
+    <!-- tyd --> 
+    
+    <!-- Added by Linguanrong for supershot, 2015-06-15-->
+    <string name="supershot_title">截屏设置</string>
+    <string name="supershot_summary">截屏时，默认进入超级截屏</string>
+    <!--Tyd-->
+
+    <!-- freeme.huzhongtao 20161208 for suspension -->
+    <string name="suspension_title">悬浮设置</string>
+    <string name="suspension_summary">开启此选项桌面将会出现悬浮球</string>
+    
+    <!-- Added by tyd YuanChengye 20140317, for add oprerating instruction -->
+    <string name="usermanual_settings">使用说明书</string>
+    <!--Tyd-->
+    
+    <!-- tyd.biantao 20131105. tp glove mode. -->
+    <string name="tp_glove_mode_title">手套模式</string>
+    <string name="tp_glove_mode_summary">开启后，可以戴手套操作触摸屏</string>
+    
+    <!-- Add by tyd lipengfei 20150730 for sim setting -->
+    <string name="radio_control_sim_title">网络</string>
+    <string name="editor_sim_card_name">编辑 SIM 卡名称</string>
+    <string name="sim_card_info">SIM 卡信息</string>
+    <string name="sim_default_set">默认设置</string>
+    <!-- tyd -->
+    
+    <!-- Added by tyd YuanChengye 20140317, for add sensor_calibration -->
+    <string name="sensor_calibration_title">传感器校准</string>
+    <!-- added by tyd liuyong 20130826 for psensor-->
+    <string name="psensor_title">接近传感器校准</string>   
+    <string name="psensor_dlg_title">注意</string>
+    <string name="psensor_dlg_note">校准接近传感器?</string>
+    <string name="psensor_calibration_success">校准完成</string>
+    <string name="psensor_calibration_fail">校准失败!</string>
+    <!-- Added by TYD Biantao, 2011/11/16. For adding Gsensor calibration. -->
+    <string name="g_sensor_title">水平校准</string>
+    <string name="g_sensor_summary">使用加速仪水平校准</string>
+    <string name="gsensor_ready">将设备放在水平表面上并点击校准</string>
+    <string name="gsensor_calibrating">正在校准,请不要移动手机。请稍等...</string>
+    <string name="gsensor_end">已校准</string>
+    <string name="gsensor_end_width_failed">校准失败</string>
+    <string name="gsensor_button1">完成</string>
+    <string name="gsensor_button2">校准</string>
+    
+    <!-- freeme.zhiwei.zhang, 20160818. NavigationBar Show/Hide.-->
+    <string name="navigationbar_settings">导航栏</string>
+    <string name="navigationbar_settings_tip">导航栏可隐藏</string>
+    <string name="navigationbar_settings_category">请选择虚拟导航栏组合</string>
+    <!--Tyd-->
+
+    <!--Add for SIM2 Ringtone by tyd xiaocui 2015-08-05-->
+    <string name="zzzz_ringtone_sim1_sound_summary">设置卡1来电铃声</string>
+    <string name="zzzz_ringtone_sim2_sound_summary">设置卡2来电铃声</string>
+    <string name="zzzz_message_sim1_sound_summary">设置卡1信息铃声</string>
+    <string name="zzzz_message_sim2_sound_summary">设置卡2信息铃声</string>
+    <!--Add for SIM2 Ringtone by tyd xiaocui 2015-08-05  end-->
+
+    <!--Add for system update by tyd liuchao 2015-08-15-->
+    <string name="mtk_system_update">系统升级</string>
+    <!--Add for system update by tyd liuchao 2015-08-15 end-->
+
+    <string name="statusbar_settings">通知栏设置</string>
+
+    <!--Add for single screen by tyd liuchao 2015-08-19-->
+    <string name="common_dashboard_title">常用</string>
+    <!--Add for single screen by tyd liuchao 2015-08-19 end-->
+
+    <string name="share_freeme_item_title">"分享Freeme OS"</string>
+
+     <!--Modified by tyd xiaocui 2015-09-15 for 6.0 style audioprofile-->
+     <string name="sound_mode">声音模式</string>
+      <!-- Modified by tyd xiaocui 2015-09-15 for 6.0 style audioprofile end -->
+
+    <!-- Add by tyd chenruoquan 2015-11-09 -->
+  <plurals name="show_more_dev_countdown">
+    <item quantity="one" >"只需 <xliff:g id="STEP_COUNT">%1$d</xliff:g> 步操作即可进入高级开发者模式。"</item>
+    <item quantity="other">"只需 <xliff:g id="STEP_COUNT">%1$d</xliff:g> 步操作即可进入高级开发者模式。"</item>
+  </plurals>
+      <string name="show_more_dev_on">"您现在处于高级开发者模式！"</string>
+      <string name="show_more_dev_already">"您已处于高级开发者模式，无需进行此操作。"</string>
+    <!-- End. -->
+    
+  <!-- Added by TYD Sean 2015-08-06 for droi account begin -->
+  <string name="login_account_droi">卓易帐号</string>
+  <!-- Added by TYD Sean 2015-08-06 for droi account end -->
+
+  <!--Modified by tyd liuchao for single screen-->
+  <string name="other_dashboard_tile">其它</string>
+
+  <string name="select_sim_for_open_data">"选择要开启数据连接的 SIM 卡"</string>
+
+  <string name="change_layout_mode">"布局模式切换"</string>
+  <!-- add by tyd wangalei 2015.9.29 for second menu sort -->
+    <string name="statebar_setting_titile">"状态栏设置"</string>
+    <string name="statebar_setting_notify">"通知管理"</string>
+    <string name="statebar_setting_switch_sort">"开关排序"</string>
+    <!-- add by tyd wangalei 2015.10.12 for second menu sort -->
+    <string name="schedule_power_setting_vibrate">"定时振动"</string>
+    <string name="schedule_power_setting_offline">"定时离线"</string>
+    <string name="schedule_power_setting_schpwronoff">"定时开关机"</string>
+     <string name="no_sim_card">"无SIM卡"</string>
+  	<string name="no_click_in_airmode">"飞行模式下不可用"</string>
+   <string name="no_click_in_location_mode_off">"位置模式关闭下不可用"</string>
+       <string name="credentials_install_nosdcard" >"从存储设备安装"</string>
+    <!-- end -->
+
+   <!-- Add by tyd lipengfei 20151015 for freeme OOBE -->
+  <string name="oobe_previous_label" >上一步</string>
+  <string name="oobe_next_label">下一步</string>
+  <string name="oobe_wifi_title">连接WLAN</string>
+  <!-- tyd -->
+    <string name="unlock_set_unlock_mode_biometric_weak" msgid="3008473624490350142">"人脸解锁"</string>
+    <string name="biometric_weak_improve_matching_title" msgid="8754080894393195194">"改善面部匹配"</string>
+    <string name="biometric_weak_liveliness_title" msgid="2661613702124561096">"真人判断"</string>
+    <string name="biometric_weak_liveliness_summary" msgid="4199587000948042325">"解锁时需要眨眼"</string>
+
+    <!-- { freeme.xupeng, 20160531. Add sunshine screen display -->
+    <string name="pref_aal_title">"屏幕增强"</string>
+    <string name="pref_aal_summary">"根据屏幕特性显示增强优化效果"</string>
+    <!-- } -->
+    <!-- { freeme.xupeng, 20160606. make oom adj change-able when reboot -->
+    <string name="dynamic_oom_adj_settings">动态设置oom等级</string>
+    <!-- } -->
+
+    <!--freeme.gejun, multi sim data connection close option-->
+    <string name="close_data_connection">关闭数据连接</string>
+    
+    <!-- freeme.chenruoquan , 20160620.Add legal statement -->
+    <string name="legal_statement">"法律声明"</string>
+
+    <!--freeme.gejun, 20160706 smart answer will not work when non-touch open-->
+    <string name="smart_anser_tip">"请注意:来电隔空操作开启时,智能接听会失效!"</string>
+
+    <!-- freeme.biantao, 20160727. Fingerprint func.-->
+    <string name="fingerprint_func">功能</string>    
+    <string name="camera_capture_enable">拍照控制</string>
+    <string name="nv_camera_cpture_des">拍照时，触摸指纹，可以拍照</string>
+    <string name="alarm_control_enable">"闹钟"</string>
+    <string name="nv_alarm_control_des">闹钟响铃时，触摸指纹可以关闭响铃</string>
+    <string name="dial_enable">指纹拨号</string>
+    <string name="nv_dial_control_des">拨号盘页面，长按指纹，号码会自动拨出</string>
+    <string name="home_scroll_enable">桌面滑动</string>
+    <string name="nv_home_control_des">触摸指纹，主屏会依次滑动</string>
+    <string name="video_operate_enable">视频控制</string>
+    <string name="nv_video_control_des">播放视频时，指纹可以控制播放、暂停</string>
+    <string name="music_operate_enable">音乐控制</string>
+    <string name="nv_music_control_des">音乐播放页面，触摸指纹，可切换“下一首”</string>
+    <string name="nv_get_it">获得</string>
+    
+    <!-- @{ freeme.menglingqiang，20160928. add boot and shutdown ringtone. -->
+    <string name="freeme_boot_shut_audio_title">开关机铃声</string>
+    <string name="freeme_boot_audio_title">开机铃声</string>
+    <!-- @} -->
+    <!-- @{ freeme.menglingqiang，20160929. show ram information in settings. -->
+    <string name="freeme_storage_rom_used">"（ROM 共 <xliff:g id="TOTAL">%1$s</xliff:g>）"</string>
+    <string name="freeme_storage_ram_used">"（RAM 共 <xliff:g id="TOTAL">%1$s</xliff:g>）"</string>
+    <!-- @} -->
+    <!-- @{ droi.duanzhiquan, 20161101. add chinese label for ram && rom information in settings.-->
+    <string name="droi_storage_rom_used">已用</string>
+    <string name="droi_storage_rom_available">可用</string>
+    <string name="droi_storage_ram_used">已用</string>
+    <!-- @} -->
+    <!-- @{ freeme.menglingqiang, 20161011. support finger print front. -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front">"您可以在手机下方找到指纹传感器。"</string>
+    <!-- @} -->
+
+    <!--freeme.chenming, 20161014. Default vibrator magnitude.-->
+    <string name="vibTuner_name">震动调节</string>
+    <string name="vib_Reset">重置</string>
+
+    <string name="motion_recognition_label">智能体感</string>
+    <string name="know_motion_recognition_settings">了解智能体感</string>
+    <string name="know_motion_recognition_settings_label">了解智能体感</string>
+    <string name="smart_wakeup_unlock_settings">智能亮屏解锁</string>
+    <string name="smart_wakeup_unlock_settings_label">智能亮屏解锁</string>
+    <string name="smart_photos_settings">体感照片</string>
+    <string name="smart_photos_settings_label">体感照片</string>
+    <string name="smart_phone_settings">智能通话</string>
+    <string name="smart_phone_settings_label">智能通话</string>
+    <string name="wave_open_application_setting">摇一摇打开应用</string>
+    <string name="wave_open_application_setting_tips">亮屏锁机或待机界面，摇动手机开启手电筒或相机；非锁屏界面摇动手机调出小屏悬浮窗</string>
+    <string name="wave_open_application_setting_tips1">亮屏锁机或待机界面，摇动手机开启手电筒或相机</string>
+    <string name="application_settings">设置应用</string>
+    <string name="click_content_preform_experience">点击开关栏可进行体验</string>
+    <string name="screen_enable_out_pocket_setting">拿出口袋亮屏</string>
+    <string name="screen_enable_out_pocket_setting_tips">从口袋中拿出手机屏幕变亮</string>
+    <string name="learn_screen_enable_out_pocket_setting_title">了解拿出口袋亮屏</string>
+    <string name="learn_screen_enable_out_pocket_setting">如图所示从口袋中拿出手机，手机自动亮屏</string>
+    <string name="mr_try">试用</string>
+    <string name="mr_cancel">我知道了</string><!-- 取消 -->
+    <string name="try_screen_enable_out_pocket_setting_title">试用拿出口袋亮屏</string>
+    <string name="notice_wait_screen_disable_then_out_pocket">请将手机锁屏后放入口袋，再拿出查看</string>
+    <string name="smart_wakeup_setting">双击屏幕亮屏</string>
+    <string name="motion_recognition_wakeup">双击亮屏</string>
+    <string name="smart_wakeup_setting_tips">双击屏幕点亮屏幕</string>
+    <string name="motion_recognition_wakeup_tips">黑屏时，双击屏幕可使其点亮</string>
+    <string name="learn_wakeup_msg">黑屏时，双击屏幕可使其点亮</string>
+    <string name="learn_wakeup_title">了解双击亮屏</string>
+    <string name="try_wakeup_title">试用双击亮屏</string>
+    <string name="try_wakeup_msg2">手机黑屏后双击屏幕试用双击亮屏</string>
+    <string name="motion_unlock_setting">隔空解锁</string>
+    <string name="motion_recognition_unlock">隔空解锁</string>
+    <string name="motion_unlock_setting_tips">手掌拂过手机解锁</string>
+    <string name="learn_unlock_title">了解隔空解锁</string>
+    <string name="learn_unlock_msg">手掌从手机顶部上方（3cm-5cm）处拂过解锁</string>
+    <string name="try_unlock_msg1">请将您的手掌从手机顶部上方（3cm-5cm）处拂过，试用隔空解锁，按返回键退出</string>
+    <string name="try_unlock_msg2">您已完成隔空解锁试用，点击屏幕或按返回键退出</string>
+    <string name="smart_call_setting">智能呼叫</string>
+    <string name="motion_recognition_call">智能呼叫</string>
+    <string name="smart_call_setting_tips">拿起电话放耳边拨打界面联系人电话</string>
+    <string name="motion_recognition_call_tips">拿起电话靠近耳朵呼叫该界面联系人</string>
+    <string name="learn_smart_call_title">了解智能呼叫</string>
+    <string name="learn_smart_call_msg">在联系人详情，信息会话，通话记录简介界面拿起电话靠近耳朵可直接呼叫该联系人</string>
+    <string name="try_smart_call_msg1">拿起电话靠近耳朵，试用智能呼叫，按返回键退出</string>
+    <string name="try_smart_call_msg2">您已完成智能呼叫试用，点击屏幕或按返回键退出</string>
+    <string name="smart_answer_setting">智能接听</string>
+    <string name="motion_recognition_listen">智能接听</string>
+    <string name="smart_answer_setting_tips">拿起电话放到耳边接听电话</string>
+    <string name="motion_recognition_listen_tips">拿起电话放到耳边接听电话</string>
+    <string name="learn_smart_answer_title">了解智能接听</string>
+    <string name="learn_smart_answer_msg">在来电时，拿起电话靠近耳朵可接听电话</string>
+    <string name="try_smart_answer_msg1">拿起电话靠近耳朵，试用智能接听，按返回键退出</string>
+    <string name="try_smart_answer_msg2">您已完成智能接听试用，点击屏幕或按返回键退出</string>
+    <string name="smart_answer_ring_setting_tip1">拿起手机铃声变小</string>
+    <string name="smart_answer_ring_setting_tip2">拿起手机铃声不变</string>
+    <string name="smart_answer_ring_setting_title">智能接听响铃</string>
+    <string name="smart_switch_setting">智能切换</string>
+    <string name="motion_recognition_convert">智能切换</string>
+    <string name="smart_switch_setting_tips">拿起电话放到耳边听筒接听</string>
+    <string name="motion_recognition_convert_tips">拿起电话放到耳边听筒接听</string>
+    <string name="learn_smart_convert_title">了解智能切换</string>
+    <string name="learn_smart_convert_msg">免提通话时，拿起电话靠近耳朵可切换为听筒接听</string>
+    <string name="try_smart_switch_msg1">拿起电话靠近耳朵，试用智能切换，按返回键退出</string>
+    <string name="try_smart_switch_msg2">您已完成智能切换试用，点击屏幕或按返回键退出</string>
+    <string name="cover_screen_mute_setting">捂住屏幕静音</string>
+    <string name="cover_screen_mute_setting_tips">来电时捂住屏幕可静音</string>
+    <string name="learn_cover_screen_mute_setting_title">了解捂住屏幕静音</string>
+    <string name="learn_cover_screen_mute_setting">手机来电亮屏响铃时，捂住屏幕静音</string>
+    <string name="notice_cover_mute_msg2">请用手捂住屏幕，试用捂住屏幕静音，按返回键退出</string>
+    <string name="try_smart_mute_msg1">请用手捂住屏幕，试用捂住屏幕静音，按返回键退出</string>
+    <string name="try_smart_mute_msg2">您已完成捂住屏幕静音试用，点击屏幕或按返回键退出</string>
+    <string name="smart_touch_setting">智能拂过</string>
+    <string name="touch_settings">拂过设置</string>
+    <string name="touch_settings_tips">拂过静音</string>
+    <string name="try_smart_touch_title">试用智能拂过</string>
+    <string name="learn_smart_touch_msg">来电时，您可以选择用手掌从手机顶部上方（3cm-5cm）拂过让手机静音或免提接听电话</string>
+    <string name="learn_smart_touch_title">了解智能拂过</string>
+    <string name="notice_smart_touch">放下手机，等待手机响铃</string>
+    <string name="try_smart_touch_msg1">请用手掌从手机顶部上方（3cm-5cm）拂过，试用拂过静音，按返回键退出</string>
+    <string name="try_smart_touch_msg2">手掌从手机顶部上方（3cm-5cm）拂过，试用拂过免提接听，按返回键退出</string>
+    <string name="try_smart_touch_msg3">您已完成智能拂过试用，点击屏幕或按返回键退出</string>
+    <string name="smart_remind_setting">智能提醒</string>
+    <string name="motion_recognition_remind">智能提醒</string>
+    <string name="smart_remind_setting_tips">提醒未接来电和未读信息</string>
+    <string name="motion_recognition_remind_tips">提醒未接来电和未读信息</string>
+    <string name="learn_remind_title">了解智能提醒</string>
+    <string name="learn_remind_msg">拿起您的手机将获得未接来电和未读信息的提醒</string>
+    <string name="try_remind_title">试用智能提醒</string>
+    <string name="try_remind_msg1">黑屏后拿起手机，手机将提醒</string>
+    <string name="try_wakeup_msg1">黑屏后拿起手机，手机将提醒</string>
+    <string name="learn_wave_open_application_setting_title">了解摇一摇打开应用</string>
+    <string name="learn_wave_open_application_setting">在亮屏锁机或待机界面，摇动手机开启手电筒或相机；在任意界面摇动手机调出小屏悬浮窗</string>
+    <string name="learn_wave_open_application_setting1">在亮屏锁机或待机界面，摇动手机开启手电筒或相机</string>
+    <string name="try_wave_open_application_msg1">请摇动手机试用摇一摇打开手电筒，按返回键退出</string>
+    <string name="try_wave_open_application_msg2">请摇动手机试用摇一摇打开相机，按返回键退出</string>
+    <string name="try_wave_open_application_msg3">请摇动手机试用摇一摇打开小屏悬浮窗，按返回键退出</string>
+    <string name="try_wave_open_application_msg4">您已完成摇一摇打开应用试用，点击屏幕或按返回键退出</string>
+    <string name="try_wave_open_application_setting_title">试用摇一摇打开应用</string>
+    <string name="call_notice">请在通话结束后试用</string>
+    <string name="default_sim_settings">默认呼出卡</string>
+    <string name="default_sim_settings_tips">SIM1</string>
+    <string name="sound_settings">响铃设置</string>
+    <string name="sound_settings_tips">拿起手机铃音变小</string>
+    <string name="default_sim_notice1">您已在电话设置中选择了默认</string>
+    <string name="default_sim_notice2">呼叫所有联系人</string>
+    <string name="tilt_phone_zoom_photes_setting">倾斜手机缩放图片</string>
+    <string name="tilt_phone_zoom_photes_setting_tips">单指按住屏幕前后倾斜手机可放大缩小图片</string>
+    <string name="tilt_phone_switch_photos_setting">倾斜手机换图片</string>
+    <string name="tilt_phone_switch_photos_setting_tips">左右倾斜手机切换图片</string>
+    <string name="smart_keep_screen_enable_setting">智能阅读</string>
+    <string name="smart_keep_screen_enable_setting_tips">检测到您正看着屏幕，屏幕将继续为您亮起</string>
+    <string name="learn_smart_keep_screen_enable_title">了解智能保持亮屏</string>
+    <string name="learn_smart_keep_screen_enable_msg">此功能用前置摄像头检测您的脸部，当您脸部对着屏幕时，屏幕就保持长亮</string>
+    <string name="learn_smart_keep_screen_enable_msg1">以下情形，该功能可能失效</string>
+    <string name="learn_smart_keep_screen_enable_msg2">1、脸部没有正对屏幕</string>
+    <string name="learn_smart_keep_screen_enable_msg3">2、前置摄像头被遮挡</string>
+    <string name="learn_smart_keep_screen_enable_msg4">3、在强光或黑暗处使用</string>
+    <string name="learn_smart_keep_screen_enable_msg5">4、前置摄像头被其他程序使用</string>
+    <string name="seperate_motion_operation_settings">隔空操作</string>
+    <string name="seperate_motion_operation_settings_label">隔空操作</string>
+    <string name="smart_wakeup_settings">智能亮屏</string>
+    <string name="smart_wakeup_settings_label">智能亮屏</string>
+    <string name="touch_control_standby_interface_setting">隔空切换待机界面</string>
+    <string name="touch_control_standby_interface_setting_tips">通过隔空手势切换待机界面和选择应用</string>
+    <string name="touch_control_maps_setting">隔空操作相册</string>
+    <string name="touch_control_maps_setting_tips">通过隔空手势切换相册界面和图片</string>
+    <string name="learn_touch_control_standby_interface_title">了解隔空切换待机界面</string>
+    <string name="learn_touch_control_standby_interface_msg">手掌从手机正面（3cm-5cm）处拂过切换分页</string>
+    <string name="learn_touch_control_standby_interface_msg1">1、手掌从手机正面（3cm-15cm）处拂过切换分页</string>
+    <string name="learn_touch_control_standby_interface_msg2">2、手掌在手机正面（40cm-100cm）处静止1s表示点击</string>
+    <string name="touch_control_tips">"注意事项：
+1、此功能利用前置摄像头检测手掌，距离（3cm-15cm）时手掌左右拂过可换页，距离（40cm-100cm）时手掌静止表示点击。
+2、在远距离时请将手指张开并正对摄像头。
+3、本功能受光线影响较大，在强光，弱光，背光下可能失效。"</string>
+    <string name="notice_title">提示</string>
+    <string name="open">开启</string>
+    <string name="cancel">取消</string>
+    <string name="notice_msg1">开启隔空操作待机界面将关闭智能保持亮屏</string>
+    <string name="notice_msg2">开启隔空操作图库将关闭智能保持亮屏</string>
+    <string name="notice_msg3">开启智能保持亮屏将关闭隔空操作待机界面</string>
+    <string name="notice_msg4">开启智能保持亮屏将关闭隔空操作图库</string>
+    <string name="notice_msg5">开启智能保持亮屏将关闭隔空操作待机界面和隔空操作图库</string>
+    <string name="i_know">知道了</string>
+    <string name="smart_wake_settings_label">Smart wake</string>
+    <string name="smart_wake_settings">智能唤醒</string>
+    <string name="screen_disable_to_view_setting">熄屏查看</string>
+    <string name="screen_disable_to_view_setting_tips">黑屏时手掌拂过手机查看手机状态</string>
+    <string name="learn_to_view_msg">黑屏时从手机顶部上方（3cm-5cm）处拂过查看手机状态</string>
+    <string name="learn_to_view_title">了解熄屏查看</string>
+    <string name="screen_disable_to_unlock_setting">上滑解锁</string>
+    <string name="screen_disable_to_unlock_setting_tips">黑屏时从下往上滑动屏幕解锁</string>
+    <string name="learn_to_unlock_msg">黑屏时从下往上滑动屏幕解锁</string>
+    <string name="learn_to_unlock_title">了解上滑解锁</string>
+    <string name="screen_disable_wake_dial_setting">画c唤醒拨号</string>
+    <string name="screen_disable_wake_dial_setting_tips">黑屏时在屏幕上画c唤醒拨号界面</string>
+    <string name="learn_wake_dile_msg">黑屏时在屏幕上画c唤醒拨号界面</string>
+    <string name="learn_wake_dile_title">了解画c唤醒拨号</string>
+    <string name="screen_disable_wake_music_setting">画m播歌</string>
+    <string name="screen_disable_wake_music_setting_tips">黑屏时在屏幕上画m播放音乐</string>
+    <string name="learn_wake_music_msg">黑屏时在屏幕上画m播放音乐</string>
+    <string name="learn_wake_music_title">了解画m播歌</string>
+    <string name="screen_disable_change_music_setting">横滑切歌</string>
+    <string name="screen_disable_change_music_setting_tips">黑屏时在屏幕上平行于底边滑动切歌</string>
+    <string name="learn_change_music_msg">黑屏时在屏幕上平行于底边滑动切歌</string>
+    <string name="learn_change_music_title">了解横滑切歌</string>
+    <string name="screen_disable_wake_camera_setting">下滑拍照</string>
+    <string name="screen_disable_wake_camera_setting_tips">黑屏时从上往下滑动屏幕唤醒相机</string>
+    <string name="learn_quick_open_camera_title">了解下滑拍照</string>
+    <string name="learn_quick_open_camera_msg">黑屏时从上往下滑动屏幕拍照</string>
+    <string name="try_quick_open_camera_title">试用熄屏唤醒相机</string>
+    <string name="try_quick_open_camera_msg1">手机黑屏后，手指如图示中那样在屏幕上滑动唤醒相机</string>
+    <string name="capture_settings">拍照设置</string>
+    <string name="capture_settings_tips">手动拍照</string>
+    <string name="try_slide_launch_camera_msg2">您已完成熄屏唤醒相机试用，点击屏幕或按返回键退出</string>
+    <string name="screen_disable_wake_browser_setting">画e唤醒浏览器</string>
+    <string name="screen_disable_wake_browser_setting_tips">黑屏时在屏幕上画e唤醒浏览器</string>
+    <string name="learn_wake_browser_msg">黑屏时在屏幕上画e唤醒浏览器</string>
+    <string name="learn_wake_browser_title">了解画e唤醒浏览器</string>
+    <string name="screen_disable_wake_qq_setting">画o唤醒QQ</string>
+    <string name="screen_disable_wake_qq_setting_tips">黑屏时在屏幕上画个圈唤醒QQ</string>
+    <string name="learn_wake_qq_msg">黑屏时在屏幕上画o唤醒QQ</string>
+    <string name="learn_wake_qq_title">了解画o唤醒QQ</string>
+    <string name="screen_disable_wake_wechat_setting">画w唤醒微信</string>
+    <string name="screen_disable_wake_wechat_setting_tips">黑屏时在屏幕上画w唤醒微信</string>
+    <string name="learn_wake_wechat_msg">黑屏时在屏幕上画w唤醒微信</string>
+    <string name="learn_wake_wechat_title">了解画w唤醒微信</string>
+    <string name="touch_control_electronic_book_setting">隔空电子书翻页</string>
+    <string name="touch_control_electronic_book_setting_tips">手掌拂过手机给电子书翻页</string>
+    <string name="learn_touch_control_electronic_book_msg">手掌从手机顶部上方（3cm-5cm）处拂过给电子书翻页</string>
+    <string name="learn_touch_control_electronic_book_title">了解隔空电子书翻页</string>
+    <string name="try_touch_control_electronic_book_msg1">请用手掌从手机顶部上方（3cm-5cm）处从右向左拂过翻到下一页，按返回键退出</string>
+    <string name="try_touch_control_electronic_book_msg2">请用手掌从手机顶部上方（3cm-5cm）处从左向右拂过翻到上一页，按返回键退出</string>
+    <string name="try_touch_control_electronic_book_msg3">您已完成隔空电子书翻页试用，点击屏幕或按返回键退出</string>
+    <string name="smart_reminder_screen_enable_setting">提醒后亮屏</string>
+    <string name="off_screen_wake_up">熄屏唤醒（点击开关栏了解功能）</string>
+    <string name="screen_disable_wake_qq_setting_msg">注：画o唤醒QQ仅针对手机版QQ，为了您更好地使用，建议您不要在手机中安装多个版本手机QQ</string>
+    <string name="app_name">智能体感</string>
+    <string name="title_activity_motion_recognition">智能体感</string>
+    <string name="pocket_mode_settings">口袋模式</string>
+    <string name="application_settings_tips">手电筒</string>
+    <string name="motion_start_vivoice_setting">动作启动vivoice</string>
+    <string name="motion_start_vivoice_setting_tips">亮屏时拿起电话靠近耳朵启动vivoice</string>
+    <string name="quick_open_camera_setting">快速开启相机</string>
+    <string name="quick_open_camera_setting_tips">黑屏时滑动屏幕开启相机</string>
+    <string name="motion_switch_photos_setting">动作换图</string>
+    <string name="pocket_mode_settings_label">口袋模式</string>
+    <string name="screen_disable_in_pocket_setting">放入口袋黑屏</string>
+    <string name="screen_disable_in_pocket_setting_tips">将手机放入口袋黑屏</string>
+    <string name="smart_hands_free_setting">智能免提</string>
+    <string name="smart_hands_free_setting_tips">手掌拂过手机顶部免提接听电话</string>
+    <string name="motion_recognition">智能体感</string>
+    <string name="motion_recognition_context">智能体感内容(点击体感内容栏可了解该体感)</string>
+    <string name="motion_recognition_context_tips">点击体感内容栏进入试用</string>
+    <string name="motion_recognition_keep">智能保持</string>
+    <string name="motion_recognition_keep_tips">您看着屏幕，屏幕就不会熄灭</string>
+    <string name="motion_recognition_unlock_tips">手机静止亮屏时，手掌拂过手机顶部解锁</string>
+    <string name="motion_recognition_mute">动作静音</string>
+    <string name="motion_recognition_mute_tips">手机静止来电时，手掌拂过手机顶部静音</string>
+    <string name="try_remind_msg2">黑屏后拿起手机，手机将提示</string>
+    <string name="try_unlock_title">试用隔空解锁</string>
+    <string name="try_smart_call_title">试用智能呼叫</string>
+    <string name="notice_move_to_ear">拿起手机靠近耳朵</string>
+    <string name="try_smart_answer_title">试用智能接听</string>
+    <string name="learn_smart_hands_free_title">了解智能免提</string>
+    <string name="learn_smart_hands_free_msg">来电时，您可以选择用手掌从手机顶部上方（3cm-5cm）拂过让手机静音或免提接听电话</string>
+    <string name="try_smart_hands_free_title">试用智能免提</string>
+    <string name="notice_smart_hands_free_msg1">放下手机等待手机响铃</string>
+    <string name="notice_smart_hands_free_msg2">手掌从手机顶部上方（3cm-5cm）拂过，手机免提接听电话</string>
+    <string name="try_smart_convert_title">试用智能切换</string>
+    <string name="notification_light">有通知时指示灯闪烁</string>
+    <string name="smart_answer_ring_title">智能接听响铃</string>
+    <string name="smart_answer_ring_tip1">拿起手机铃声变小</string>
+    <string name="smart_answer_ring_tip2">拿起手机铃声不变</string>
+    <string name="notice_wave_telephone">在亮屏</string>
+    <string name="try_cover_mute_title">试用捂住屏幕静音</string>
+    <string name="notice_cover_mute_msg1">放下手机等待手机响铃</string>
+    <string name="try_smart_mute_title">试用捂住屏幕静音</string>
+    <string name="learn_touch_control_gallery_title">了解隔空操作相册</string>
+    <string name="learn_touch_control_gallery_msg">手掌从手机顶部上方（3cm-5cm）处拂过切换图片</string>
+    <!-- Added by tyd YuanChengye 20131101, for motion video setting -->
+    <string name="touch_control_video_setting">隔空操作视频</string>
+    <string name="learn_touch_control_video_title">了解隔空操作视频</string>
+    <string name="learn_touch_control_video_msg">手掌从手机顶部上方（3cm-5cm）处上下或左右拂过切换视频</string>
+    <!-- Added by tyd linliangliang 20131104, for motion music setting -->
+    <string name="touch_control_music_setting">隔空操作音乐</string>
+    <string name="learn_touch_control_music_title">了解隔空操作音乐</string>
+    <string name="learn_touch_control_music_msg">手掌从手机顶部上方（3cm-5cm）处上下或左右拂过切换音乐</string>
+    
+    <!-- Added by tyd jlwang 20140823, for motion phone setting -->
+    <string name="touch_control_phone_setting">隔空操作来电</string>
+    <string name="learn_touch_control_phone_title">了解隔空操作来电</string>
+    <string name="learn_touch_control_phone_msg">手掌从手机顶部上方（3cm-5cm）处拂过来控制来电状态,让来电静音或免提接听</string>
+    <string name="motion_phone_setting_change_title">隔空操作来电设置</string>
+    <string name="motion_phone_setting_change_default_value">1</string>
+    <!--  end -->
+    <!-- Add by tyd jiangshouting 2015.09.16 for call opeartion title-->
+    <string name="call_operation">来电操作</string>
+    
+    <string name="smart_wakeup_settings_title">智能亮屏</string>
+    <string name="motion_gesture_generic_setting">通用模式</string>
+    <string name="learn_touch_control_generic_title">了解通用隔空操作模式</string>
+    <string name="learn_touch_control_generic_msg">"手掌从手机顶部上方（3cm-5cm）处拂过。通用模式直接将隔空手势滑动映射为触屏滑动，能良好的兼容第三方应用。注意，此模式与自有模式不能同时工作，自有模式能自定义更加复杂的操作与行为"</string>
+    
+    <string name="generic_mode_title">通用模式</string>
+    <string name="private_mode_title">自有模式</string>
+
+    <string name="take_phone_mode_title">拨打电话</string>
+    <string name="send_sms_mode_title">打开短信</string>
+    <string name="open_app_mode_title">打开应用</string>
+    <string name="control_music_mode_title">控制音乐</string>
+    <string name="unlock_screen_mode_title">解锁锁屏</string>
+    <string name="function_select">功能选择</string>
+    <string name="prev_music">上一首</string>
+    <string name="start_or_pause_music">播放/暂停</string>
+    <string name="next_music">下一首</string>
+    <string name="control_select">控制选择</string>
+    <string name="app_select">应用选择</string>
+    
+    <string name="screen_wakeup_up_enabled">上划手势</string>
+    <string name="screen_wakeup_down_enabled">下划手势</string>
+    <string name="screen_wakeup_left_enabled">左划手势</string>
+    <string name="screen_wakeup_right_enabled">右划手势</string>
+    <string name="screen_wakeup_c_enabled">画C手势</string>
+    <string name="screen_wakeup_m_enabled">画M手势</string>
+    <string name="screen_wakeup_e_enabled">画e手势</string>
+    <string name="screen_wakeup_o_enabled">画O手势</string>
+    <string name="screen_wakeup_w_enabled">画W手势</string>
+    <string name="screen_wakeup_v_enabled">画V手势</string>
+    <string name="screen_wakeup_s_enabled">画S手势</string>
+    <string name="screen_wakeup_z_enabled">画Z手势</string>
+    <string name="screen_wakeup_rarrow_enabled">画>手势</string>
+    <string name="screen_wakeup_tarrow_enabled">画^手势</string>
+    
+    <string name="default_setting_weixin">微信</string>
+    <string name="default_setting_qq">QQ</string>
+    <string name="default_setting_browser">浏览器</string>
+    <string name="default_setting_music">音乐</string>
+    <string name="default_setting_call">拨号</string>
+    <string name="smart_wake_action_state_on">开启</string>
+
+    <string name="generic_mode_descrption">通用模式是模拟用户的滑动操作，开启后，隔空解锁等自有模式选项将无效，关闭通用模式后可恢复</string>
+
+    <string name="double_tap_home_wake_title">双击HOME键亮屏</string>
+    <string name="double_tap_home_wake_summary">双击HOME键点亮屏幕</string>
+    
+    <string name="double_tap_home_off_title">双击HOME键锁屏</string>
+    <string name="double_tap_home_off_summary">在任意界面双击HOME键快速锁屏</string>
+    
+    <!-- freeme.chenruoquan, 2160623 -->
+    <string name="motion_on">"开启"</string>
+    <string name="motion_off">"关闭"</string>
+
+    <!-- freeme.tangxiaohui, 20160919.-->
+    <string name="soft_lock_control_enable">软件锁</string>
+    <!-- freeme.luyangjie, 20170605.-->
+    <string name="total_storage">整机总容量</string>
+    <string name="system_storage">系统空间</string>
+    <string name="Internal_storage">手机存储</string>
+    <string name="show_batterypct_title">"电量百分比"</string>
+
+    <!-- freeme.xupeng, 20170605, add hardware info -->
+    <string name="hardware_info">硬件信息</string>
+    
+    <!-- freeme.jianglingfeng, 20170619, add hw version -->
+    <string name="hw_version">硬件版本号</string>
+    <string name="sw_version">软件版本号</string>
+    <string name="custom_version">自定义版本号</string>
+    <string name="os_version">操作系统版本号</string>
+    <string name="carrier_aggregation">载波聚合</string>
+
+    <!-- freeme.xupeng, 20170607, add product name -->
+    <string name="product_name">产品名称</string>
+    <string name="product_name_summary">红辣椒GM-Q11</string>
+
+    <!-- freeme.luyangjie, 20170608, add WeChat and QQ title name-->
+    <string name="wechat_title">来微信消息点亮屏幕</string>
+    <string name="qq_title">来QQ消息点亮屏幕</string>
+
+    <!-- freeme.luyangjie, 20170608, add Application startup management -->
+    <string name="app_management_title">应用自启动管理</string>
+
+    <!-- freeme.luyangjie, 20170612, three_pointer_in_camera -->
+    <string name="three_pointer_in_camera_title">三指进入相机</string>
+    <string name="three_pointer_in_camera_summary">三指向上滑动快速进入相机</string>
+
+    <!-- freeme.luyangjie, 20170612, Double click on the lock screen  -->
+    <string name="double_homekey_lock_title">双击锁屏</string>
+    <string name="double_homekey_lock_summary">在任意界面快速双击HOME键锁屏</string>
+
+    <!-- freeme.luyangjie, 20170614, add Super headset -->
+    <string name="super_headset_title">超级耳机</string>
+    <string name="click_function_title">单击功能</string>
+    <string name="double_click_function_title">双击功能</string>
+    <string name="Three_click_function_title">三击功能</string>
+    <string name="long_click_function_title">长按功能</string>
+    <string name="conventional_title">常规</string>
+    <string name="Function_title">功能</string>
+
+    <!-- freeme.fanwuyang, 20170705, add storage information -->
+    <string name="storage_info">存储信息</string>
+    <string name="system_space">机身存储</string>
+    <string name="total_storages">总容量</string>
+    <string name="available_storage">可用容量</string>
+
+    <!-- freeme.fanwuyang, 20170801, add smart empty information -->
+    <string name="smart_text_show">截屏请长按：音量下键+开机键</string>
+
+    <!--freeme.fanwuyang,2017/08/02, for Application Security -->
+    <string name="app_security_title">应用锁</string>
+
+    <!--freeme.fanwuyang,2017/08/26, for Mulitiple Accounts-->
+    <string name="app_mulitiple_accounts">双开助手</string>
+
+    <!--freeme.fanwuyang,2017/08/31, for CChelper-->
+    <string name="cchelper_settings_title">远程帮助</string>
+
+    <!-- Droi.zhangweinan, 20161201. for add tts option -->
+    <string name="tts_mode_text">语音播报</string>
+    <string name="tts_mode_summary">大字体桌面语音提示</string>
+
+    <!--freeme.zhangjunxiang,20170803,for auto clean background-->
+    <string name="auto_clean_background_title">自动清理后台</string>
+    <!-- freeme.xuqian,20170826,for AudioProfileSettings lable -->
+    <string name="audio_profiles">情景模式</string>
+    <!--freeme.xuqian,20170830,for instructions -->
+    <string name="product_instructions">"电子说明书"</string>
+    <!--freeme.xuqian,20170913,for customize battery display -->
+    <string name="battery_used_total">"电池已用时间: <xliff:g id="TOTAL">%1$s</xliff:g>"</string>
+    <!--freeme.xuqian,20170919,for customize market display -->
+    <string name="market_droi_easy_install">卓易安心装</string>
+    <string name="market_droi_task_helper">小易任务助手</string>
+    <!-- freeme.zhangshaopiao,20170830,added for wireless toggle -->
+    <string name="data_connection">数据连接</string>
+    <!-- freeme.zhangshaopiao,20171106,add too long prompt -->
+    <string name="bluetooth_name_too_long">键入长度过长</string>
+</resources>
